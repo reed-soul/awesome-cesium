@@ -1,0 +1,108 @@
+name: Update GitHub Stars
+
+on:
+  schedule:
+    # Run every Sunday at 2:00 AM UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        npm install axios cheerio
+        
+    - name: Update star counts
+      run: |
+        node << 'EOF'
+        const fs = require('fs');
+        const axios = require('axios');
+        
+        async function updateStarCounts() {
+          try {
+            let readme = fs.readFileSync('README.md', 'utf8');
+            let updated = false;
+            
+            // Extract GitHub repository URLs
+            const githubUrlRegex = /https:\/\/github\.com\/([^\/]+)\/([^\/\)\s]+)/g;
+            const matches = [...readme.matchAll(githubUrlRegex)];
+            
+            console.log(`Found ${matches.length} GitHub repositories to check`);
+            
+            for (const match of matches) {
+              const [fullUrl, owner, repo] = match;
+              const cleanRepo = repo.replace(/[\)\s].*$/, ''); // Remove trailing characters
+              
+              try {
+                // Use GitHub API to get repository info
+                const response = await axios.get(`https://api.github.com/repos/${owner}/${cleanRepo}`, {
+                  headers: {
+                    'Authorization': `token ${{ secrets.GITHUB_TOKEN }}`,
+                    'User-Agent': 'awesome-cesium-updater'
+                  }
+                });
+                
+                const starCount = response.data.stargazers_count;
+                const starBadgePattern = new RegExp(`!\\[GitHub stars\\]\\(https://img\\.shields\\.io/github/stars/${owner}/${cleanRepo}\\?[^\\)]*\\)`, 'g');
+                
+                if (starBadgePattern.test(readme)) {
+                  console.log(`${owner}/${cleanRepo}: ${starCount} stars`);
+                  // Badge already exists, no need to update (shields.io is dynamic)
+                } else {
+                  console.log(`No badge found for ${owner}/${cleanRepo}`);
+                }
+                
+                // Add a small delay to avoid rate limiting
+                await new Promise(resolve => setTimeout(resolve, 100));
+                
+              } catch (error) {
+                console.log(`Error checking ${owner}/${cleanRepo}:`, error.message);
+              }
+            }
+            
+            if (updated) {
+              fs.writeFileSync('README.md', readme);
+              console.log('README.md updated with new star counts');
+            } else {
+              console.log('No updates needed - shields.io badges are dynamic');
+            }
+            
+          } catch (error) {
+            console.error('Error updating star counts:', error);
+            process.exit(1);
+          }
+        }
+        
+        updateStarCounts();
+        EOF
+        
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit changes
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "📊 Auto-update GitHub star counts"
+        git push 

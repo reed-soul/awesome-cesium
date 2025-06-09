@@ -1,0 +1,206 @@
+name: Sync Translations
+
+on:
+  schedule:
+    # Run weekly on Tuesdays at 10:00 AM UTC
+    - cron: '0 10 * * 2'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'README.md'
+      - 'README.zh.md'
+      - 'CONTRIBUTING.md'
+      - 'CONTRIBUTING.zh.md'
+
+jobs:
+  check-sync:
+    runs-on: ubuntu-latest
+    name: Check Translation Sync
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check File Modifications
+        id: check-files
+        run: |
+          # Get last commit times for all translation files
+          README_EN=$(git log -1 --format="%ct" -- README.md)
+          README_ZH=$(git log -1 --format="%ct" -- README.zh.md)
+          CONTRIB_EN=$(git log -1 --format="%ct" -- CONTRIBUTING.md)
+          CONTRIB_ZH=$(git log -1 --format="%ct" -- CONTRIBUTING.zh.md)
+          
+          echo "README.md last modified: $(date -d @$README_EN)"
+          echo "README.zh.md last modified: $(date -d @$README_ZH)"
+          echo "CONTRIBUTING.md last modified: $(date -d @$CONTRIB_EN)"
+          echo "CONTRIBUTING.zh.md last modified: $(date -d @$CONTRIB_ZH)"
+          
+          # Check if English versions are newer than Chinese versions
+          SYNC_NEEDED=false
+          
+          if [ $README_EN -gt $README_ZH ]; then
+            echo "⚠️ README.md is newer than README.zh.md"
+            SYNC_NEEDED=true
+          fi
+          
+          if [ $CONTRIB_EN -gt $CONTRIB_ZH ]; then
+            echo "⚠️ CONTRIBUTING.md is newer than CONTRIBUTING.zh.md"
+            SYNC_NEEDED=true
+          fi
+          
+          echo "sync_needed=$SYNC_NEEDED" >> $GITHUB_OUTPUT
+
+      - name: Count Resources
+        id: count-resources
+        run: |
+          # Count resources in both README files
+          EN_COUNT=$(grep -c "^\*   \[" README.md || echo "0")
+          ZH_COUNT=$(grep -c "^\*   \[" README.zh.md || echo "0")
+          
+          echo "English README resources: $EN_COUNT"
+          echo "Chinese README resources: $ZH_COUNT"
+          echo "en_count=$EN_COUNT" >> $GITHUB_OUTPUT
+          echo "zh_count=$ZH_COUNT" >> $GITHUB_OUTPUT
+          
+          if [ $EN_COUNT -ne $ZH_COUNT ]; then
+            echo "⚠️ Resource count mismatch between English and Chinese versions"
+            echo "count_mismatch=true" >> $GITHUB_OUTPUT
+          else
+            echo "count_mismatch=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Sync Issue
+        if: steps.check-files.outputs.sync_needed == 'true' || steps.count-resources.outputs.count_mismatch == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const syncNeeded = '${{ steps.check-files.outputs.sync_needed }}' === 'true';
+            const countMismatch = '${{ steps.count-resources.outputs.count_mismatch }}' === 'true';
+            const enCount = '${{ steps.count-resources.outputs.en_count }}';
+            const zhCount = '${{ steps.count-resources.outputs.zh_count }}';
+            
+            let issueBody = `## 🌍 Translation Sync Required
+            
+            The automated translation sync check has detected that the multi-language versions are out of sync.
+            
+            ### Issues Detected:
+            `;
+            
+            if (syncNeeded) {
+              issueBody += `
+            - ⚠️ **File modification dates**: English versions are newer than Chinese versions
+              - This usually means the English version has been updated but the Chinese version hasn't been updated accordingly
+            `;
+            }
+            
+            if (countMismatch) {
+              issueBody += `
+            - ⚠️ **Resource count mismatch**: 
+              - English README: ${enCount} resources
+              - Chinese README: ${zhCount} resources
+              - Difference: ${Math.abs(enCount - zhCount)} resources
+            `;
+            }
+            
+            issueBody += `
+            ### Action Required:
+            
+            1. **Review Changes**: Compare the English and Chinese versions to identify differences
+            2. **Update Translations**: Sync the Chinese versions with the latest English content
+            3. **Verify Content**: Ensure all resources are properly translated and categorized
+            4. **Test Links**: Verify that all links work in both versions
+            
+            ### Files to Check:
+            - \`README.md\` vs \`README.zh.md\`
+            - \`CONTRIBUTING.md\` vs \`CONTRIBUTING.zh.md\`
+            
+            ### Helpful Commands:
+            \`\`\`bash
+            # Compare file modification times
+            git log -1 --format="%ad" --date=relative -- README.md
+            git log -1 --format="%ad" --date=relative -- README.zh.md
+            
+            # Count resources in each file
+            grep -c "^\\*   \\[" README.md
+            grep -c "^\\*   \\[" README.zh.md
+            \`\`\`
+            
+            **Priority**: Medium
+            **Labels**: translation, maintenance, documentation
+            
+            ---
+            
+            *This issue was automatically created by the Translation Sync workflow.*
+            `;
+            
+            // Check if there's already an open issue about translation sync
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'translation'
+            });
+            
+            const existingIssue = issues.find(issue => 
+              issue.title.includes('Translation Sync Required')
+            );
+            
+            if (existingIssue) {
+              // Update existing issue
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existingIssue.number,
+                body: `## 🔄 Updated Sync Status\n\n${issueBody}`
+              });
+              
+              console.log(`Updated existing issue #${existingIssue.number}`);
+            } else {
+              // Create new issue
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '🌍 Translation Sync Required',
+                body: issueBody,
+                labels: ['translation', 'maintenance', 'documentation', 'help wanted']
+              });
+              
+              console.log('Created new translation sync issue');
+            }
+
+      - name: Generate Translation Report
+        run: |
+          echo "# Translation Sync Report" > translation-report.md
+          echo "" >> translation-report.md
+          echo "Generated on: $(date)" >> translation-report.md
+          echo "" >> translation-report.md
+          
+          echo "## File Status" >> translation-report.md
+          echo "| File | Last Modified | Status |" >> translation-report.md
+          echo "|------|---------------|--------|" >> translation-report.md
+          
+          README_EN_DATE=$(git log -1 --format="%ad" --date=short -- README.md)
+          README_ZH_DATE=$(git log -1 --format="%ad" --date=short -- README.zh.md)
+          CONTRIB_EN_DATE=$(git log -1 --format="%ad" --date=short -- CONTRIBUTING.md)
+          CONTRIB_ZH_DATE=$(git log -1 --format="%ad" --date=short -- CONTRIBUTING.zh.md)
+          
+          echo "| README.md | $README_EN_DATE | 🇺🇸 English (primary) |" >> translation-report.md
+          echo "| README.zh.md | $README_ZH_DATE | 🇨🇳 Chinese |" >> translation-report.md
+          echo "| CONTRIBUTING.md | $CONTRIB_EN_DATE | 🇺🇸 English (primary) |" >> translation-report.md
+          echo "| CONTRIBUTING.zh.md | $CONTRIB_ZH_DATE | 🇨🇳 Chinese |" >> translation-report.md
+          
+          echo "" >> translation-report.md
+          echo "## Resource Counts" >> translation-report.md
+          EN_COUNT=$(grep -c "^\*   \[" README.md || echo "0")
+          ZH_COUNT=$(grep -c "^\*   \[" README.zh.md || echo "0")
+          
+          echo "- English README: $EN_COUNT resources" >> translation-report.md
+          echo "- Chinese README: $ZH_COUNT resources" >> translation-report.md
+          echo "- Difference: $((EN_COUNT - ZH_COUNT)) resources" >> translation-report.md
+
+      - name: Upload Translation Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: translation-report
+          path: translation-report.md
+          retention-days: 30 

@@ -1,0 +1,144 @@
+# Awesome Cesium Configuration
+# This file defines the project metadata, categories, and automation rules
+
+project:
+  name: "Awesome Cesium"
+  description: "A curated list of awesome Cesium libraries, resources and other shiny things"
+  maintainers:
+    - "sutpc"
+  license: "CC0-1.0"
+  
+categories:
+  - name: "Official Resources"
+    description: "Official Cesium documentation, tools, and resources"
+    priority: 1
+    
+  - name: "Community"
+    description: "Community forums, discussions, and social platforms"
+    priority: 2
+    
+  - name: "Learning Resources"
+    description: "Tutorials, blogs, videos, and educational materials"
+    priority: 3
+    subcategories:
+      - "Tutorials"
+      - "Blogs" 
+      - "Videos"
+      - "Books"
+      
+  - name: "Framework Integration"
+    description: "Integration with popular frontend frameworks"
+    priority: 4
+    subcategories:
+      - "Angular"
+      - "Vue"
+      - "React"
+      
+  - name: "Game Engine Integration"
+    description: "Integration with game engines and 3D platforms"
+    priority: 5
+    
+  - name: "Data Processing"
+    description: "Tools for processing and converting geospatial data"
+    priority: 6
+    subcategories:
+      - "Terrain Building"
+      - "3D Model Converting"
+      
+  - name: "Libraries & Plugins"
+    description: "Third-party libraries and plugins extending Cesium functionality"
+    priority: 7
+    subcategories:
+      - "UI"
+      - "Graphics"
+      - "Data Management"
+      - "Data Visualization"
+      - "Data Providers"
+      - "Data Processing & Conversion"
+      - "Plotting & Drawing"
+      - "Editor Tools"
+      - "Material & Shader Effects"
+      - "GPS & Tracking"
+      - "Input & Interaction"
+
+quality_standards:
+  github_repo:
+    min_stars: 0
+    max_age_months: 60  # 5 years
+    required_files:
+      - "README.md"
+    
+  documentation:
+    required: true
+    language: ["English", "Chinese"]
+    
+  maintenance:
+    last_commit_months: 24  # 2 years
+    active_issues: true
+    
+automation:
+  link_checker:
+    schedule: "weekly"
+    timeout: "20s"
+    retry_count: 3
+    
+  star_updater:
+    schedule: "weekly"
+    batch_size: 10
+    
+  quality_check:
+    schedule: "monthly"
+    auto_label: true
+    
+badges:
+  github_stars: true
+  last_commit: false
+  license: false
+  build_status: false
+  
+labels:
+  outdated: "⚠️ **[Outdated]**"
+  experimental: "🧪 **[Experimental]**"
+  popular: "🌟 **[Popular]**"
+  new: "🆕 **[New]**"
+  
+languages:
+  primary: "en"
+  supported:
+    - "en"  # English
+    - "zh"  # Chinese (Simplified)
+  
+  files:
+    en:
+      readme: "README.md"
+      contributing: "CONTRIBUTING.md"
+    zh:
+      readme: "README.zh.md" 
+      contributing: "CONTRIBUTING.zh.md"
+      
+  sync:
+    schedule: "weekly"
+    auto_issue: true
+    tolerance: 0  # No tolerance for resource count differences
+    
+  translation_terms:
+    Library: "库"
+    Framework: "框架"
+    Plugin: "插件"
+    Integration: "集成"
+    Visualization: "可视化"
+    Terrain: "地形"
+    Geospatial: "地理空间"
+    Development: "开发"
+    Tutorial: "教程"
+    Documentation: "文档"
+    
+social:
+  twitter: null
+  discord: null
+  reddit: "https://www.reddit.com/r/cesium/"
+  
+contributing:
+  guidelines_file: "CONTRIBUTING.md"
+  template_file: ".github/PULL_REQUEST_TEMPLATE.md"
+  issue_template: ".github/ISSUE_TEMPLATE/" 
