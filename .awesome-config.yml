@@ -5,7 +5,7 @@ project:
   name: "Awesome Cesium"
   description: "A curated list of awesome Cesium libraries, resources and other shiny things"
   maintainers:
-    - "sutpc"
+    - "reed-soul"
   license: "CC0-1.0"
   
 categories:

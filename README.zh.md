@@ -1,9 +1,9 @@
 # Awesome Cesium
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/sutpc/awesome-cesium.svg?style=social&label=Star)](https://github.com/sutpc/awesome-cesium)
-[![GitHub forks](https://img.shields.io/github/forks/sutpc/awesome-cesium.svg?style=social&label=Fork)](https://github.com/sutpc/awesome-cesium)
-[![GitHub watchers](https://img.shields.io/github/watchers/sutpc/awesome-cesium.svg?style=social&label=Watch)](https://github.com/sutpc/awesome-cesium)
+[![GitHub stars](https://img.shields.io/github/stars/reed-soul/awesome-cesium.svg?style=social&label=Star)](https://github.com/reed-soul/awesome-cesium)
+[![GitHub forks](https://img.shields.io/github/forks/reed-soul/awesome-cesium.svg?style=social&label=Fork)](https://github.com/reed-soul/awesome-cesium)
+[![GitHub watchers](https://img.shields.io/github/watchers/reed-soul/awesome-cesium.svg?style=social&label=Watch)](https://github.com/reed-soul/awesome-cesium)
 
 > 精选的 [Cesium](https://cesium.com/) 相关库、资源和其他优秀内容的清单。
 

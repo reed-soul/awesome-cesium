@@ -173,7 +173,7 @@ Use this to suggest improvements to the project structure or functionality.
 ### Local Testing
 ```bash
 # Clone your fork
-git clone https://github.com/reed-sou/awesome-cesium.git
+git clone https://github.com/reed-soul/awesome-cesium.git
 cd awesome-cesium
 
 # Install dependencies (for link checking)
@@ -225,7 +225,7 @@ Contributors are recognized in several ways:
 ### Contact Maintainers:
 - Create an issue for general questions
 - Use discussions for community topics
-- Mention `@sutpc` for urgent matters
+- Mention `@reed-soul` for urgent matters
 
 ---
 
