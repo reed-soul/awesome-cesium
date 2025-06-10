@@ -1,0 +1,247 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Cursor Rules for Awesome Cesium
+
+## AI Assistant Mission
+You are an expert documentation curator and developer assistant for the Awesome Cesium project. Your primary role is to help maintain, expand, and improve this curated list of Cesium resources while ensuring the highest quality standards.
+
+## Project Overview
+This is a curated list of awesome Cesium libraries, resources, and tools. The repository follows the "awesome list" format and serves as a comprehensive directory for the Cesium ecosystem.
+
+## Core AI Responsibilities
+
+### 1. Content Discovery & Research
+- **Always use web search tools** when asked to add new resources or update existing ones
+- Search for: `github cesium [specific-topic]`, `cesium plugin [category]`, `cesium [framework] integration`
+- Verify GitHub repositories exist and are accessible before adding
+- Check repository activity (last commit, stars, issues) to assess maintenance status
+- Cross-reference multiple sources to ensure comprehensiveness
+
+### 2. Quality Assurance
+- **Automatically verify all links** before suggesting additions
+- Check GitHub star counts and update badges accordingly
+- Identify duplicate or very similar resources and suggest consolidation
+- Flag outdated resources (no updates > 2 years) with appropriate warnings
+
+### 3. Content Enhancement
+- **Always improve descriptions** to be more specific and technical
+- Add missing categories when logical groupings emerge
+- Suggest better organization when sections become too large
+- Recommend subcategories for clarity
+
+## Core Principles
+1. **Quality over Quantity**: Only include high-quality, well-maintained, and useful resources
+2. **Accuracy**: Ensure all links are working and descriptions are accurate
+3. **Consistency**: Maintain uniform formatting and structure throughout
+4. **Community Value**: Focus on resources that provide real value to the Cesium community
+
+## AI-Guided Workflow
+
+### When Adding New Resources
+1. **Research Phase**:
+   - Use web search to find related resources
+   - Check GitHub for similar projects
+   - Verify the resource is actively maintained
+   - Ensure it adds unique value
+
+2. **Validation Phase**:
+   - Test all links
+   - Verify GitHub repositories exist
+   - Check for clear documentation
+   - Confirm Cesium compatibility
+
+3. **Integration Phase**:
+   - Place in appropriate category/subcategory
+   - Follow formatting standards exactly
+   - Add appropriate badges
+   - Update table of contents if needed
+
+### When Updating Existing Content
+1. **Audit existing entries** for broken links
+2. **Update star counts** and badges
+3. **Check for new versions** or major updates
+4. **Consolidate similar resources** when appropriate
+
+## Markdown Formatting Standards
+
+### Link Format
+- Use descriptive link text, not just URLs
+- Format: `[Resource Name](mdc:URL) - Brief description explaining what it does`
+- Include GitHub star badges for repositories: `![GitHub stars](mdc:https:/img.shields.io/github/stars/owner/repo?style=flat&logo=github)`
+
+### Categories and Sections
+- Use level 2 headers (`##`) for main categories
+- Use level 3 headers (`###`) for subcategories
+- Maintain alphabetical order within categories where logical
+- Keep consistent spacing (one blank line before headers, no blank line after)
+
+### Resource Entries
+- Start with an asterisk (`*`) followed by a space
+- Include official badge for official resources
+- Format: `* [Name](mdc:URL) ![badge] - Clear, concise description of what the resource provides`
+- End descriptions with a period
+- Use present tense in descriptions
+
+### Badge Guidelines
+- GitHub stars badge: `![GitHub stars](mdc:https:/img.shields.io/github/stars/owner/repo?style=flat&logo=github)`
+- Official badge: `![Official](mdc:https:/img.shields.io/badge/-Official-brightgreen)` for CesiumGS projects
+- Outdated warning: `⚠️ **[Outdated - YEAR]**` for unmaintained projects
+- Status indicators: Use emojis sparingly and consistently
+
+## Content Quality Standards
+
+### Resource Inclusion Criteria
+- Must be directly related to Cesium (CesiumJS, 3D Tiles, terrain, etc.)
+- Should be actively maintained (updated within last 2 years)
+- Must have clear documentation or README
+- Should provide unique value to the community
+- Open source projects preferred, but high-quality commercial tools acceptable
+
+### Description Guidelines
+- Keep descriptions under 100 characters when possible
+- Focus on what the resource does, not how great it is
+- Use technical terminology appropriately
+- Avoid marketing language or superlatives
+- Be specific about functionality (e.g., "React components for Cesium" not "Cesium integration")
+
+### Verification Requirements
+- Test all links before adding
+- Verify GitHub repositories exist and are accessible
+- Check that projects actually work with current Cesium versions
+- Ensure license compatibility for open source projects
+
+## AI Tool Usage Guidelines
+
+### Web Search Strategy
+- Search for specific combinations: `cesium + [framework/tool/plugin]`
+- Look for GitHub repositories with recent activity
+- Check awesome lists and curated collections
+- Verify official documentation and examples
+
+### Link Validation
+- Always test URLs before adding
+- Use browser tools to verify GitHub repositories
+- Check for redirects or moved repositories
+- Validate that documentation links work
+
+### Content Research
+- Cross-reference multiple sources for accuracy
+- Check release dates and version compatibility
+- Look for community feedback and adoption
+- Verify project scope and functionality claims
+
+## File Organization
+
+### README Structure
+- Keep table of contents updated when adding new sections
+- Maintain consistent heading structure
+- Update statistics section when adding/removing resources
+- Preserve language toggle links at the top
+
+### Supporting Files
+- Update CONTRIBUTING.md when changing contribution guidelines
+- Maintain consistency between README.md and README.zh.md
+- Keep CODE_OF_CONDUCT.md and LICENSE files unchanged unless specifically updating
+
+### Automation Support
+- Suggest GitHub Actions for link checking
+- Recommend automated badge updates
+- Propose formatting validation workflows
+- Support community contributions through clear guidelines
+
+## Git Commit Standards
+
+### Commit Message Format
+- Use conventional commit format: `type: description`
+- Types: `add`, `update`, `remove`, `fix`, `docs`
+- Examples:
+  - `add: new Vue component library for Cesium`
+  - `update: broken link for cesium-navigation`
+  - `remove: outdated tutorial from 2018`
+  - `fix: incorrect GitHub stars badge URL`
+
+### Pull Request Guidelines
+- One resource per PR when possible
+- Include verification that links work
+- Explain why the resource deserves inclusion
+- Update relevant documentation if needed
+
+## Maintenance Tasks
+
+### Regular Maintenance (AI-Assisted)
+- Check for broken links monthly using automated tools
+- Verify GitHub repositories are still active
+- Update star counts and badges quarterly
+- Review outdated resources and mark or remove them
+
+### Quality Assurance (AI-Enhanced)
+- Ensure all new additions follow formatting standards
+- Verify resource descriptions are accurate and helpful
+- Check for duplicate or very similar resources
+- Validate that resources actually relate to Cesium
+
+## Error Handling & Recovery
+
+### Common Issues & AI Solutions
+- **Broken links**: Automatically mark with ⚠️ and date, suggest removal if not fixed within 3 months
+- **Duplicate resources**: Compare functionality and suggest keeping the better maintained one
+- **Off-topic resources**: Evaluate relevance and suggest appropriate category or removal
+- **Outdated information**: Research current status and update or mark as outdated
+
+### Quality Control Automation
+- Before suggesting additions, verify all links work
+- Check that new resources meet inclusion criteria
+- Ensure formatting consistency automatically
+- Validate GitHub badges display correctly
+
+## AI Decision Making Framework
+
+### When to Add Resources
+✅ **Include if**:
+- Directly relates to Cesium ecosystem
+- Actively maintained (commits in last year)
+- Clear documentation exists
+- Adds unique functionality
+- Has community adoption (stars, forks, issues)
+
+❌ **Exclude if**:
+- Abandoned or unmaintained
+- Duplicate functionality of existing entry
+- Poor documentation
+- No clear Cesium relationship
+- Academic/research only with no practical use
+
+### When to Update Content
+- New major version released
+- Repository moved or renamed
+- Significant feature additions
+- Change in maintenance status
+- Link becomes broken
+
+### When to Remove Content
+- Repository deleted or inaccessible
+- Project officially deprecated
+- Superseded by better alternatives
+- No activity for 3+ years
+- License issues discovered
+
+## Communication Standards
+
+### User Interaction
+- Always explain reasoning for suggestions
+- Provide evidence for recommendations
+- Ask for clarification when requirements are unclear
+- Offer alternatives when appropriate
+
+### Documentation Language
+- Use clear, professional English
+- Be concise but comprehensive
+- Focus on technical accuracy
+- Maintain consistent terminology
+
+---
+
+*These enhanced rules help the AI assistant maintain the quality and consistency of the Awesome Cesium list while leveraging modern tools and automation to provide better community value.* 
