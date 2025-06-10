@@ -124,6 +124,7 @@
 *   [3dtiles](https://github.com/fanvanzh/3dtiles) ![GitHub stars](https://img.shields.io/github/stars/fanvanzh/3dtiles?style=flat&logo=github) - Fast tools for converting OSGB, Shapefile, and FBX to 3D Tiles.
 *   [COLLADA2GLTF](https://github.com/KhronosGroup/COLLADA2GLTF) ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/COLLADA2GLTF?style=flat&logo=github) - Official Khronos tool for converting COLLADA (.dae) files to glTF.
 *   [gltf-to-3dtiles](https://github.com/fanvanzh/gltf-to-3dtiles) - Command line tool for converting glTF/GLB files to 3D Tiles format.
+*   [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) ![GitHub stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=flat&logo=github) - glTF 2.0 SDK for JavaScript and TypeScript with optimization, compression, and conversion tools.
 *   [obj2gltf](https://github.com/CesiumGS/obj2gltf) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/obj2gltf?style=flat&logo=github) - Official Node.js tool for converting OBJ assets to glTF 2.0.
 *   [objTo3d-tiles](https://github.com/fanvanzh/objTo3d-tiles) - Node.js tool for converting OBJ models to 3D Tiles.
 *   [citygml-to-3dtiles](https://github.com/njam/citygml-to-3dtiles) - Experimental converter from CityGML to Cesium 3D Tiles.

@@ -125,6 +125,7 @@
 *   [3dtiles](https://github.com/fanvanzh/3dtiles) ![GitHub stars](https://img.shields.io/github/stars/fanvanzh/3dtiles?style=flat&logo=github) - 快速转换OSGB、Shapefile和FBX为3D Tiles的工具
 *   [COLLADA2GLTF](https://github.com/KhronosGroup/COLLADA2GLTF) ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/COLLADA2GLTF?style=flat&logo=github) - Khronos官方工具，用于将COLLADA(.dae)文件转换为glTF
 *   [gltf-to-3dtiles](https://github.com/fanvanzh/gltf-to-3dtiles) - 将glTF/GLB文件转换为3D Tiles格式的命令行工具
+*   [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) ![GitHub stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=flat&logo=github) - glTF 2.0 SDK for JavaScript and TypeScript with optimization, compression, and conversion tools.
 *   [obj2gltf](https://github.com/CesiumGS/obj2gltf) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/obj2gltf?style=flat&logo=github) - 用于将OBJ资源转换为glTF 2.0的官方Node.js工具
 *   [objTo3d-tiles](https://github.com/fanvanzh/objTo3d-tiles) - 将OBJ模型转换为3D Tiles的Node.js工具
 *   [citygml-to-3dtiles](https://github.com/njam/citygml-to-3dtiles) - 将CityGML转换为Cesium 3D Tiles的实验性转换器
