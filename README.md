@@ -59,6 +59,7 @@
 *   [Documentation](https://cesium.com/learn/) - Comprehensive documentation, tutorials, and API reference.
 *   [Official Examples](https://sandcastle.cesium.com/) - Interactive code examples and demos.
 *   [GitHub Repository](https://github.com/CesiumGS/cesium) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium?style=flat&logo=github) - The official open-source CesiumJS repository.
+*   [3D Tiles Specification](https://github.com/CesiumGS/3d-tiles) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles?style=flat&logo=github) - Open specification for streaming 3D geospatial content.
 
 ## Community
 
@@ -94,6 +95,7 @@
 ### Vue
 
 *   [vue-cesium](https://github.com/zouyaoji/vue-cesium) ![GitHub stars](https://img.shields.io/github/stars/zouyaoji/vue-cesium?style=flat&logo=github) - Vue 3.x components for CesiumJS with comprehensive third-party library support.
+*   [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) ![GitHub stars](https://img.shields.io/github/stars/tingyuxuan2302/cesium-vue3-vite?style=flat&logo=github) - Vue 3 + Vite + Cesium template with common 3D visualization scenes.
 *   [cesium-vue](https://github.com/weshmily/cesium-vue) ⚠️ **[Outdated - 2018]** - Cesium development template based on Vue CLI 4.x.x+.
 
 ### React
@@ -118,6 +120,7 @@
 
 *   [3dtiles](https://github.com/fanvanzh/3dtiles) ![GitHub stars](https://img.shields.io/github/stars/fanvanzh/3dtiles?style=flat&logo=github) - Fast tools for converting OSGB, Shapefile, and FBX to 3D Tiles.
 *   [COLLADA2GLTF](https://github.com/KhronosGroup/COLLADA2GLTF) ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/COLLADA2GLTF?style=flat&logo=github) ⚠️ **[Outdated - 2020]** - Official Khronos tool for converting COLLADA (.dae) files to glTF.
+*   [gltf-pipeline](https://github.com/CesiumGS/gltf-pipeline) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/gltf-pipeline?style=flat&logo=github) - Official content pipeline for optimizing glTF assets for 3D Tiles and Cesium.
 *   [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) ![GitHub stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=flat&logo=github) - glTF 2.0 SDK for JavaScript and TypeScript with optimization, compression, and conversion tools.
 *   [obj2gltf](https://github.com/CesiumGS/obj2gltf) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/obj2gltf?style=flat&logo=github) - Official Node.js tool for converting OBJ assets to glTF 2.0.
 *   [citygml-to-3dtiles](https://github.com/njam/citygml-to-3dtiles) - Experimental converter from CityGML to Cesium 3D Tiles.
@@ -142,6 +145,7 @@
 *   [d3cesium](https://github.com/abwood/d3cesium) ⚠️ **[Outdated - 2015]** - Integration demo combining Cesium with D3.js for advanced data visualization.
 *   [CesiumMeshVisualizer](https://github.com/MikesWei/CesiumMeshVisualizer) ![GitHub stars](https://img.shields.io/github/stars/MikesWei/CesiumMeshVisualizer?style=flat&logo=github) ⚠️ **[Outdated - 2021]** - Use Three.js geometry in Cesium with advanced mesh management.
 *   [ol-cesium](https://github.com/openlayers/ol-cesium) ![GitHub stars](https://img.shields.io/github/stars/openlayers/ol-cesium?style=flat&logo=github) - OpenLayers - Cesium integration for 2D/3D map switching.
+*   [3DTilesRendererJS](https://github.com/NASA-AMMOS/3DTilesRendererJS) ![GitHub stars](https://img.shields.io/github/stars/NASA-AMMOS/3DTilesRendererJS?style=flat&logo=github) - 3D Tiles renderer for Three.js, alternative to Cesium for 3D Tiles visualization.
 *   [cesium-webxr](https://github.com/pupitetris/cesium-webxr) ![GitHub stars](https://img.shields.io/github/stars/pupitetris/cesium-webxr?style=flat&logo=github) - POC: Modern WebXR support for immersive VR/AR experiences.
 *   [cesium-vr](https://github.com/NICTA/cesium-vr) ⚠️ **[Outdated - 2015]** - VR plugin for Oculus headsets (requires deprecated WebVR and Cesium 1.10).
 
@@ -186,10 +190,11 @@ For flooding analysis, dynamic water surfaces, and environmental simulation, see
 ## SDK & Development Frameworks
 
 *   [dc-sdk](https://github.com/dvt3d/dc-sdk) ![GitHub stars](https://img.shields.io/github/stars/dvt3d/dc-sdk?style=flat&logo=github) - WebGIS application framework optimized for rapid development and deployment.
-*   [mars3d](http://mars3d.cn/) - Mars3D platform for B/S architecture 3D client development with industry extensions.
+*   [mars3d](https://github.com/marsgis/mars3d) ![GitHub stars](https://img.shields.io/github/stars/marsgis/mars3d?style=flat&logo=github) - Mars3D platform for B/S architecture 3D client development with industry extensions.
 
 ## Open Source Projects
 
+*   [Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) ![GitHub stars](https://img.shields.io/github/stars/jiawanlong/Cesium-Examples?style=flat&logo=github) - Comprehensive collection of 200+ CesiumJS examples including analysis, visualization, and data loading.
 *   [Cesium.HPUZYZ.Demo](https://github.com/YanzheZhang/Cesium.HPUZYZ.Demo) ![GitHub stars](https://img.shields.io/github/stars/YanzheZhang/Cesium.HPUZYZ.Demo?style=flat&logo=github) ⚠️ **[Outdated - 2021]** - Comprehensive collection of Cesium demos and examples.
 *   [ExamplesforCesium](https://github.com/pasu/ExamplesforCesium) ![GitHub stars](https://img.shields.io/github/stars/pasu/ExamplesforCesium?style=flat&logo=github) ⚠️ **[Outdated - 2022]** - Personal examples and tutorials for Cesium development.
 
@@ -198,6 +203,7 @@ For flooding analysis, dynamic water surfaces, and environmental simulation, see
 *   [satellite-js](https://github.com/shashwatak/satellite-js) ![GitHub stars](https://img.shields.io/github/stars/shashwatak/satellite-js?style=flat&logo=github) - Satellite orbit calculation library from TLE data, commonly used with Cesium for orbit visualization.
 *   [satvis](https://github.com/Flowm/satvis) ![GitHub stars](https://img.shields.io/github/stars/Flowm/satvis?style=flat&logo=github) - Advanced satellite orbit visualization and pass prediction.
 *   [3D-Wind-Field](https://github.com/RaymanNg/3D-Wind-Field) ![GitHub stars](https://img.shields.io/github/stars/RaymanNg/3D-Wind-Field?style=flat&logo=github) - 3D wind field visualization on Cesium globe.
+*   [TerriaJS](https://github.com/TerriaJS/terriajs) ![GitHub stars](https://img.shields.io/github/stars/TerriaJS/terriajs?style=flat&logo=github) - Library for building rich geospatial 2D & 3D data platforms with Cesium support.
 
 ## Showcases
 
@@ -212,7 +218,9 @@ For flooding analysis, dynamic water surfaces, and environmental simulation, see
 
 ## Tools
 
-*(For CesiumJS build setup and bundling, see [official documentation](https://cesium.com/learn/).)*
+*   [3d-tiles-validator](https://github.com/CesiumGS/3d-tiles-validator) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-validator?style=flat&logo=github) - Official validator for 3D Tiles tilesets.
+*   [3d-tiles-samples](https://github.com/CesiumGS/3d-tiles-samples) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-samples?style=flat&logo=github) - Sample tilesets for learning and testing 3D Tiles.
+*   For CesiumJS build setup and bundling, see [official documentation](https://cesium.com/learn/).
 
 ## Ecosystem
 
@@ -242,7 +250,7 @@ If you see a package or project here that is no longer maintained or is not a go
 ## Statistics
 
 > Last updated: January 2025  
-> Total resources: 60+  
+> Total resources: 70+  
 > Categories: 15  
 > Contributors: Welcome!
 

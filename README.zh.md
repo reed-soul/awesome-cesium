@@ -60,6 +60,7 @@
 *   [官方文档](https://cesium.com/learn/) - 完整的文档、教程和API参考
 *   [官方示例](https://sandcastle.cesium.com/) - 交互式代码示例和演示
 *   [GitHub仓库](https://github.com/CesiumGS/cesium) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium?style=flat&logo=github) - CesiumJS官方开源仓库
+*   [3D Tiles规范](https://github.com/CesiumGS/3d-tiles) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles?style=flat&logo=github) - 流式3D地理空间内容的开放规范
 
 ## 社区
 
@@ -95,6 +96,7 @@
 ### Vue
 
 *   [vue-cesium](https://github.com/zouyaoji/vue-cesium) ![GitHub stars](https://img.shields.io/github/stars/zouyaoji/vue-cesium?style=flat&logo=github) - Vue 3.x的CesiumJS组件，支持全面的第三方库
+*   [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) ![GitHub stars](https://img.shields.io/github/stars/tingyuxuan2302/cesium-vue3-vite?style=flat&logo=github) - Vue 3 + Vite + Cesium 模板，包含常见三维可视化场景
 *   [cesium-vue](https://github.com/weshmily/cesium-vue) ⚠️ **[已过时 - 2018]** - 基于Vue CLI 4.x.x+的Cesium开发模板
 
 ### React
@@ -119,7 +121,8 @@
 
 *   [3dtiles](https://github.com/fanvanzh/3dtiles) ![GitHub stars](https://img.shields.io/github/stars/fanvanzh/3dtiles?style=flat&logo=github) - 快速转换OSGB、Shapefile和FBX为3D Tiles的工具
 *   [COLLADA2GLTF](https://github.com/KhronosGroup/COLLADA2GLTF) ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/COLLADA2GLTF?style=flat&logo=github) ⚠️ **[已过时 - 2020]** - Khronos官方工具，用于将COLLADA(.dae)文件转换为glTF
-*   [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) ![GitHub stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=flat&logo=github) - glTF 2.0 SDK for JavaScript and TypeScript with optimization, compression, and conversion tools.
+*   [gltf-pipeline](https://github.com/CesiumGS/gltf-pipeline) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/gltf-pipeline?style=flat&logo=github) - 官方glTF资源优化管道，用于3D Tiles和Cesium
+*   [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) ![GitHub stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=flat&logo=github) - glTF 2.0 SDK，支持JavaScript和TypeScript的优化、压缩与转换
 *   [obj2gltf](https://github.com/CesiumGS/obj2gltf) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/obj2gltf?style=flat&logo=github) - 用于将OBJ资源转换为glTF 2.0的官方Node.js工具
 *   [citygml-to-3dtiles](https://github.com/njam/citygml-to-3dtiles) - 将CityGML转换为Cesium 3D Tiles的实验性转换器
 *   [cesium-point-cloud-generator](https://github.com/tum-gis/cesium-point-cloud-generator) ⚠️ **[已过时 - 2021]** - 基于Java的点云可视化工具，使用3D Tiles
@@ -143,6 +146,7 @@
 *   [d3cesium](https://github.com/abwood/d3cesium) ⚠️ **[已过时 - 2015]** - 结合Cesium与D3.js进行高级数据可视化的集成演示
 *   [CesiumMeshVisualizer](https://github.com/MikesWei/CesiumMeshVisualizer) ![GitHub stars](https://img.shields.io/github/stars/MikesWei/CesiumMeshVisualizer?style=flat&logo=github) ⚠️ **[已过时 - 2021]** - 在Cesium中使用Three.js几何体和高级网格管理
 *   [ol-cesium](https://github.com/openlayers/ol-cesium) ![GitHub stars](https://img.shields.io/github/stars/openlayers/ol-cesium?style=flat&logo=github) - OpenLayers与Cesium的集成，支持2D/3D地图切换
+*   [3DTilesRendererJS](https://github.com/NASA-AMMOS/3DTilesRendererJS) ![GitHub stars](https://img.shields.io/github/stars/NASA-AMMOS/3DTilesRendererJS?style=flat&logo=github) - Three.js的3D Tiles渲染器，Cesium的替代选择
 *   [cesium-webxr](https://github.com/pupitetris/cesium-webxr) ![GitHub stars](https://img.shields.io/github/stars/pupitetris/cesium-webxr?style=flat&logo=github) - POC：现代WebXR支持，提供沉浸式VR/AR体验
 *   [cesium-vr](https://github.com/NICTA/cesium-vr) ⚠️ **[已过时 - 2015]** - Oculus头戴设备VR插件（需要已废弃的WebVR和Cesium 1.10）
 
@@ -187,10 +191,11 @@
 ## SDK与开发框架
 
 *   [dc-sdk](https://github.com/dvt3d/dc-sdk) ![GitHub stars](https://img.shields.io/github/stars/dvt3d/dc-sdk?style=flat&logo=github) - 为快速开发和部署优化的WebGIS应用程序框架
-*   [mars3d](http://mars3d.cn/) - Mars3D平台，用于B/S架构3D客户端开发，带有行业扩展
+*   [mars3d](https://github.com/marsgis/mars3d) ![GitHub stars](https://img.shields.io/github/stars/marsgis/mars3d?style=flat&logo=github) - Mars3D平台，用于B/S架构3D客户端开发，带有行业扩展
 
 ## 开源项目
 
+*   [Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) ![GitHub stars](https://img.shields.io/github/stars/jiawanlong/Cesium-Examples?style=flat&logo=github) - 200+ CesiumJS示例合集，涵盖分析、可视化和数据加载等
 *   [Cesium.HPUZYZ.Demo](https://github.com/YanzheZhang/Cesium.HPUZYZ.Demo) ![GitHub stars](https://img.shields.io/github/stars/YanzheZhang/Cesium.HPUZYZ.Demo?style=flat&logo=github) ⚠️ **[已过时 - 2021]** - Cesium演示和示例的综合集合
 *   [ExamplesforCesium](https://github.com/pasu/ExamplesforCesium) ![GitHub stars](https://img.shields.io/github/stars/pasu/ExamplesforCesium?style=flat&logo=github) ⚠️ **[已过时 - 2022]** - Cesium开发的个人示例和教程
 
@@ -199,6 +204,7 @@
 *   [satellite-js](https://github.com/shashwatak/satellite-js) ![GitHub stars](https://img.shields.io/github/stars/shashwatak/satellite-js?style=flat&logo=github) - 基于TLE数据的卫星轨道计算库，常与Cesium配合用于轨道可视化
 *   [satvis](https://github.com/Flowm/satvis) ![GitHub stars](https://img.shields.io/github/stars/Flowm/satvis?style=flat&logo=github) - 高级卫星轨道可视化和过境预测
 *   [3D-Wind-Field](https://github.com/RaymanNg/3D-Wind-Field) ![GitHub stars](https://img.shields.io/github/stars/RaymanNg/3D-Wind-Field?style=flat&logo=github) - Cesium地球上的3D风场可视化
+*   [TerriaJS](https://github.com/TerriaJS/terriajs) ![GitHub stars](https://img.shields.io/github/stars/TerriaJS/terriajs?style=flat&logo=github) - 构建丰富地理空间2D/3D数据平台的库，支持Cesium
 
 ## 展示案例
 
@@ -213,7 +219,9 @@
 
 ## 工具
 
-*（CesiumJS 构建和打包说明请参见[官方文档](https://cesium.com/learn/)）*
+*   [3d-tiles-validator](https://github.com/CesiumGS/3d-tiles-validator) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-validator?style=flat&logo=github) - 官方3D Tiles瓦片集校验工具
+*   [3d-tiles-samples](https://github.com/CesiumGS/3d-tiles-samples) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-samples?style=flat&logo=github) - 用于学习和测试3D Tiles的示例瓦片集
+*   CesiumJS 构建和打包说明请参见[官方文档](https://cesium.com/learn/)
 
 ## 生态系统
 
@@ -243,7 +251,7 @@
 ## 统计信息
 
 > 最后更新：2025年1月  
-> 总资源数：60+  
+> 总资源数：70+  
 > 分类数：15  
 > 贡献者：欢迎加入！
 
