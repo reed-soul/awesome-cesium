@@ -20,6 +20,8 @@ New to Cesium? Start here:
 3. **Framework**: Vue → [vue-cesium](https://github.com/zouyaoji/vue-cesium) 🌟 | React → [resium](https://github.com/reearth/resium) 🌟
 4. **Examples**: [Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) — 200+ demos 🌟
 
+*Recommended stack for new projects: Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) or [vue-cesium](https://github.com/zouyaoji/vue-cesium) | React → [resium](https://github.com/reearth/resium)*
+
 ## Contents
 
 - [Official Resources](#official-resources)
@@ -50,9 +52,10 @@ New to Cesium? Start here:
 - [Open Source Projects](#open-source-projects)
 - [Applications](#applications)
 - [Showcases](#showcases)
-- [Data Sources](#data-sources)
+- [Data Sources & Platform](#data-sources--platform)
 - [Tools](#tools)
 - [Ecosystem](#ecosystem)
+- [Future & Emerging](#future--emerging)
 - [Archived / Legacy](#archived--legacy)
 - [Contributing](#contributing)
 
@@ -181,13 +184,22 @@ For build and bundle optimization, see [Cesium documentation](https://cesium.com
 ## Showcases
 
 *   [Cesium Sandcastle](https://sandcastle.cesium.com/) - Official interactive showcase of Cesium features and capabilities.
-*   [Cesium ion](https://ion.cesium.com/) - Cloud platform showcasing real-world 3D content streaming.
+*   [Cesium ion](https://ion.cesium.com/) 🌟 - Cloud platform for streaming 3D content, photogrammetry pipelines, terrain, and real-world datasets.
 
-## Data Sources
+## Data Sources & Platform
 
-*   [Cesium Ion](https://ion.cesium.com/) - Cloud platform for streaming and hosting 3D geospatial content.
+*   [Cesium Ion](https://ion.cesium.com/) 🌟 - Cloud platform for streaming, hosting, and processing 3D geospatial content; includes terrain, imagery, 3D Tiles, and photogrammetry.
 *   [OpenStreetMap](https://www.openstreetmap.org/) - Collaborative mapping platform providing global map data.
 *   [Natural Earth](https://www.naturalearthdata.com/) - Public domain map dataset for cartographers.
+
+## Future & Emerging
+
+*Technologies and directions shaping the Cesium ecosystem.*
+
+*   **3D Tiles Next** — Evolution of the streaming specification; experimental support in [Cesium](https://github.com/CesiumGS/cesium). Follow [Cesium Blog](https://cesium.com/blog/) for announcements.
+*   **Cesium ion** — Cloud platform for 3D geospatial; streaming, tiling, photogrammetry, and hosting. The default for production deployments.
+*   **Game Engines** — [Unity](https://github.com/CesiumGS/cesium-unity), [Unreal](https://github.com/CesiumGS/cesium-unreal), [Godot](https://godotengine.org/asset-library/asset/2807) bring Cesium and 3D Tiles to real-time engines.
+*   **Omniverse & WebXR** — [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) for NVIDIA Omniverse; [cesium-webxr](https://github.com/pupitetris/cesium-webxr) for VR/AR in the browser.
 
 ## Tools
 
@@ -197,8 +209,8 @@ For build and bundle optimization, see [Cesium documentation](https://cesium.com
 
 ## Ecosystem
 
-*   [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-omniverse?style=flat&logo=github) - Cesium connector for NVIDIA Omniverse platform.
-*   See [Game Engine Integration](#game-engine-integration) for Unity, Unreal, and Godot plugins.
+*   [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-omniverse?style=flat&logo=github) - Cesium connector for NVIDIA Omniverse.
+*   See [Game Engine Integration](#game-engine-integration) and [Future & Emerging](#future--emerging).
 
 ## Archived / Legacy
 
