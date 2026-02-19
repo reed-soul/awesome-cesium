@@ -1,0 +1,7 @@
+# Quality check output
+scripts/quality-report.json
+scripts/github-audit.json
+scripts/phase1-report.json
+
+# Dependencies
+node_modules/
