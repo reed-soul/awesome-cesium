@@ -56,7 +56,7 @@
 
 *   [Official Website](https://cesium.com/) - The official Cesium website with documentation and resources.
 *   [CesiumJS Library](https://cesium.com/cesiumjs/) - The main JavaScript library for 3D globes and maps.
-*   [Documentation](https://cesium.com/learn/cesiumjs-learn/) - Comprehensive documentation, tutorials, and API reference.
+*   [Documentation](https://cesium.com/learn/) - Comprehensive documentation, tutorials, and API reference.
 *   [Official Examples](https://sandcastle.cesium.com/) - Interactive code examples and demos.
 *   [GitHub Repository](https://github.com/CesiumGS/cesium) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium?style=flat&logo=github) - The official open-source CesiumJS repository.
 
@@ -70,17 +70,15 @@
 
 ### Tutorials
 
-*   [Official CesiumJS Tutorials](https://cesium.com/learn/cesiumjs-tutorials/) - Step-by-step tutorials for beginners.
-*   [CesiumJS-tutorial](https://github.com/cesiumcn/cesiumcn.github.io) - Official tutorial from Cesium Chinese Website with practical examples.
+*   [Official CesiumJS Tutorials](https://cesium.com/learn/) - Step-by-step tutorials and learning resources for beginners.
 
 ### Blogs
 
-*   [Official Cesium Blog](https://cesium.com/blog/) - Latest news, features, and technical insights.
-*   [Cesium Stories](https://cesium.com/blog/cesium-stories/) - Real-world use cases and success stories.
+*   [Official Cesium Blog](https://cesium.com/blog/) - Latest news, features, technical insights, and real-world use cases.
 
 ### Videos
 
-*   [Cesium YouTube Channel](https://www.youtube.com/c/CesiumEngine) - Official tutorials, demos, and conference talks.
+*   [Cesium YouTube Channel](https://www.youtube.com/cesium) - Official tutorials, demos, and conference talks.
 
 ### Books
 
@@ -91,17 +89,16 @@
 ### Angular
 
 *   [cesium-angular-example](https://github.com/Developer-Plexscape/cesium-angular-example) ![GitHub stars](https://img.shields.io/github/stars/Developer-Plexscape/cesium-angular-example?style=flat&logo=github) - Integration example with the latest version of Angular.
-*   [angular-cesium](https://github.com/Anka-Geo/angular-cesium) ![GitHub stars](https://img.shields.io/github/stars/Anka-Geo/angular-cesium?style=flat&logo=github) - Complete Angular integration guide with detailed setup instructions.
+*   [angular-cesium](https://github.com/Anka-Geo/angular-cesium) ![GitHub stars](https://img.shields.io/github/stars/Anka-Geo/angular-cesium?style=flat&logo=github) ⚠️ **[Outdated - 2019]** - Complete Angular integration guide with detailed setup instructions.
 
 ### Vue
 
 *   [vue-cesium](https://github.com/zouyaoji/vue-cesium) ![GitHub stars](https://img.shields.io/github/stars/zouyaoji/vue-cesium?style=flat&logo=github) - Vue 3.x components for CesiumJS with comprehensive third-party library support.
-*   [cesium-vue](https://github.com/weshmily/cesium-vue) - Cesium development template based on Vue CLI 4.x.x+.
+*   [cesium-vue](https://github.com/weshmily/cesium-vue) ⚠️ **[Outdated - 2018]** - Cesium development template based on Vue CLI 4.x.x+.
 
 ### React
 
 *   [resium](https://github.com/reearth/resium) ![GitHub stars](https://img.shields.io/github/stars/reearth/resium?style=flat&logo=github) - React components for Cesium with TypeScript support and declarative API.
-*   [cesium_demos](https://github.com/YanzheZhang/cesium_demos) - Demo applications showcasing Cesium with React and TypeScript.
 
 ## Game Engine Integration
 
@@ -113,65 +110,53 @@
 
 ### Terrain Building
 
-*   [cesium-terrain-builder](https://github.com/geo-data/cesium-terrain-builder) ![GitHub stars](https://img.shields.io/github/stars/geo-data/cesium-terrain-builder?style=flat&logo=github) - C++ library and command line tools for creating terrain tiles.
+*   [cesium-terrain-builder](https://github.com/geo-data/cesium-terrain-builder) ![GitHub stars](https://img.shields.io/github/stars/geo-data/cesium-terrain-builder?style=flat&logo=github) ⚠️ **[Outdated - 2021]** - C++ library and command line tools for creating terrain tiles.
 *   [ctb-quantized-mesh](https://github.com/ahuarte47/cesium-terrain-builder) - Enhanced version supporting quantized-mesh format for better performance.
-*   [gdal2cesium](https://github.com/homme/gdal2cesium) ![GitHub stars](https://img.shields.io/github/stars/homme/gdal2cesium?style=flat&logo=github) - Python utility based on GDAL for generating terrain heightmap tiles.
-*   [Cesium Terrain Server](https://github.com/geo-data/cesium-terrain-server) ![GitHub stars](https://img.shields.io/github/stars/geo-data/cesium-terrain-server?style=flat&logo=github) - Server for serving filesystem-based terrain tilesets.
-*   [mbtiles-terrain-server](https://github.com/klokantech/mbtiles-terrain-server) - Server that imports terrain tiles into SQLite database for efficient serving.
+*   [Cesium Terrain Server](https://github.com/geo-data/cesium-terrain-server) ![GitHub stars](https://img.shields.io/github/stars/geo-data/cesium-terrain-server?style=flat&logo=github) ⚠️ **[Outdated - 2021]** - Server for serving filesystem-based terrain tilesets.
 
 ### 3D Model Converting
 
 *   [3dtiles](https://github.com/fanvanzh/3dtiles) ![GitHub stars](https://img.shields.io/github/stars/fanvanzh/3dtiles?style=flat&logo=github) - Fast tools for converting OSGB, Shapefile, and FBX to 3D Tiles.
-*   [COLLADA2GLTF](https://github.com/KhronosGroup/COLLADA2GLTF) ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/COLLADA2GLTF?style=flat&logo=github) - Official Khronos tool for converting COLLADA (.dae) files to glTF.
-*   [gltf-to-3dtiles](https://github.com/fanvanzh/gltf-to-3dtiles) - Command line tool for converting glTF/GLB files to 3D Tiles format.
+*   [COLLADA2GLTF](https://github.com/KhronosGroup/COLLADA2GLTF) ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/COLLADA2GLTF?style=flat&logo=github) ⚠️ **[Outdated - 2020]** - Official Khronos tool for converting COLLADA (.dae) files to glTF.
 *   [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) ![GitHub stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=flat&logo=github) - glTF 2.0 SDK for JavaScript and TypeScript with optimization, compression, and conversion tools.
 *   [obj2gltf](https://github.com/CesiumGS/obj2gltf) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/obj2gltf?style=flat&logo=github) - Official Node.js tool for converting OBJ assets to glTF 2.0.
-*   [objTo3d-tiles](https://github.com/fanvanzh/objTo3d-tiles) - Node.js tool for converting OBJ models to 3D Tiles.
 *   [citygml-to-3dtiles](https://github.com/njam/citygml-to-3dtiles) - Experimental converter from CityGML to Cesium 3D Tiles.
-*   [cesium_pnt_generator](https://github.com/tum-gis/cesium_pnt_generator) ![GitHub stars](https://img.shields.io/github/stars/tum-gis/cesium_pnt_generator?style=flat&logo=github) - Convert LiDAR LAS datasets into Cesium point cloud tiles.
-*   [cesium-point-cloud-generator](https://github.com/tum-gis/cesium-point-cloud-generator) - Java-based tool for point cloud visualization with 3D Tiles.
+*   [cesium-point-cloud-generator](https://github.com/tum-gis/cesium-point-cloud-generator) ⚠️ **[Outdated - 2021]** - Java-based tool for point cloud visualization with 3D Tiles.
 
 ## Libraries & Plugins
 
 ### UI
 
-*   [cesium-navigation](https://github.com/calvinmetcalf/cesium-navigation) ![GitHub stars](https://img.shields.io/github/stars/calvinmetcalf/cesium-navigation?style=flat&logo=github) - Navigation controls including compass, zoom, and distance scale.
-*   [CesiumContextMenu](https://github.com/oldguysrule/CesiumContextMenu) - Right-click context menu plugin for enhanced user interaction.
-*   [cesium-plugins](https://github.com/syzdev/cesium-plugins) ![GitHub stars](https://img.shields.io/github/stars/syzdev/cesium-plugins?style=flat&logo=github) - Collection of practical plugins for coordinate picking, tooltips, overlays, flooding analysis, dynamic water surfaces, and environmental simulation.
-*   [Cesium-Plugin](https://github.com/bingqixuan/Cesium-Plugin) - Feature-rich plugin with measurement tools, context menus, and visual effects.
+*   [cesium-plugins](https://github.com/syzdev/cesium-plugins) ![GitHub stars](https://img.shields.io/github/stars/syzdev/cesium-plugins?style=flat&logo=github) ⚠️ **[Outdated - 2021]** - Collection of practical plugins for coordinate picking, tooltips, overlays, flooding analysis, dynamic water surfaces, and environmental simulation.
+*   [Cesium-Plugin](https://github.com/bingqixuan/Cesium-Plugin) ⚠️ **[Outdated - 2021]** - Feature-rich plugin with measurement tools, context menus, and visual effects.
 
 ### Graphics
 
-*   [cesium-sensor-volumes](https://github.com/AnalyticalGraphicsInc/cesium-sensor-volumes) - Plugin for rendering 3D sensor volumes and coverage areas.
 
 ### Data Management
 
-*(Build tools such as cesium-webpack-plugin are listed in [Tools](#tools).)*
+*(See [Cesium documentation](https://cesium.com/learn/) for build and bundling guidance.)*
 
 ### Data Visualization
 
-*   [CesiumHeatmap](https://github.com/MikesWei/CesiumHeatmap) ![GitHub stars](https://img.shields.io/github/stars/MikesWei/CesiumHeatmap?style=flat&logo=github) - Heatmap library using heatmap.js for data visualization.
-*   [d3cesium](https://github.com/abwood/d3cesium) - Integration demo combining Cesium with D3.js for advanced data visualization.
-*   [CesiumMeshVisualizer](https://github.com/MikesWei/CesiumMeshVisualizer) ![GitHub stars](https://img.shields.io/github/stars/MikesWei/CesiumMeshVisualizer?style=flat&logo=github) - Use Three.js geometry in Cesium with advanced mesh management.
+*   [d3cesium](https://github.com/abwood/d3cesium) ⚠️ **[Outdated - 2015]** - Integration demo combining Cesium with D3.js for advanced data visualization.
+*   [CesiumMeshVisualizer](https://github.com/MikesWei/CesiumMeshVisualizer) ![GitHub stars](https://img.shields.io/github/stars/MikesWei/CesiumMeshVisualizer?style=flat&logo=github) ⚠️ **[Outdated - 2021]** - Use Three.js geometry in Cesium with advanced mesh management.
 *   [ol-cesium](https://github.com/openlayers/ol-cesium) ![GitHub stars](https://img.shields.io/github/stars/openlayers/ol-cesium?style=flat&logo=github) - OpenLayers - Cesium integration for 2D/3D map switching.
 *   [cesium-webxr](https://github.com/pupitetris/cesium-webxr) ![GitHub stars](https://img.shields.io/github/stars/pupitetris/cesium-webxr?style=flat&logo=github) - POC: Modern WebXR support for immersive VR/AR experiences.
 *   [cesium-vr](https://github.com/NICTA/cesium-vr) ⚠️ **[Outdated - 2015]** - VR plugin for Oculus headsets (requires deprecated WebVR and Cesium 1.10).
 
 ### Data Providers
 
-*   [CesiumVectorTile](https://github.com/MikesWei/CesiumVectorTile) - Vector tile imagery provider for rendering vector data on terrain.
-*   [WCSTerrainProvider](https://github.com/kaktus40/WCSTerrainProvider) - Web Coverage Service terrain provider for elevation data.
+*   [CesiumVectorTile](https://github.com/MikesWei/CesiumVectorTile) ⚠️ **[Outdated - 2021]** - Vector tile imagery provider for rendering vector data on terrain.
 *   [Cesium-GeoserverTerrainProvider](https://github.com/kaktus40/Cesium-GeoserverTerrainProvider) - GeoServer integration for various elevation data formats.
 
 ### Data Processing & Conversion
 
-*   [cesium-geolibs](https://github.com/AnalyticalGraphicsInc/cesium-geolibs) - Collection of tools for converting geospatial data to Cesium formats.
 
 ### Plotting & Drawing
 
-*   [cesium-drawhelper](https://github.com/leforthomas/cesium-drawhelper) ![GitHub stars](https://img.shields.io/github/stars/leforthomas/cesium-drawhelper?style=flat&logo=github) - Shape editor for creating and editing 2D geometries.
-*   [CesiumExp-measure](https://github.com/gitgitczl/CesiumExp-measure) - Measurement plugin for distance, area, and azimuth calculations.
-*   [drawForCesium](https://github.com/hujiulong/drawForCesium) - Dynamic plotting functionality based on drawhelper plugin.
+*   [cesium-drawhelper](https://github.com/leforthomas/cesium-drawhelper) ![GitHub stars](https://img.shields.io/github/stars/leforthomas/cesium-drawhelper?style=flat&logo=github) ⚠️ **[Outdated - 2016]** - Shape editor for creating and editing 2D geometries.
+*   [CesiumExp-measure](https://github.com/gitgitczl/CesiumExp-measure) ⚠️ **[Outdated - 2021]** - Measurement plugin for distance, area, and azimuth calculations.
 
 ### Editor Tools
 
@@ -179,20 +164,20 @@ For shape and geometry editing, see [cesium-drawhelper](https://github.com/lefor
 
 ### Material & Shader Effects
 
-*   [CesiumRoadImageFlowMaterial](https://github.com/WaterSeeding/CesiumRoadImageFlowMaterial) ![GitHub stars](https://img.shields.io/github/stars/WaterSeeding/CesiumRoadImageFlowMaterial?style=flat&logo=github) - Custom road image flow material with animated effects.
+*   [CesiumRoadImageFlowMaterial](https://github.com/WaterSeeding/CesiumRoadImageFlowMaterial) ![GitHub stars](https://img.shields.io/github/stars/WaterSeeding/CesiumRoadImageFlowMaterial?style=flat&logo=github) ⚠️ **[Outdated - 2022]** - Custom road image flow material with animated effects.
 
 ### GPS & Tracking
 
 *   [cesium-gpx-viewer](https://github.com/Duckiduc/cesium-gpx-viewer) ![GitHub stars](https://img.shields.io/github/stars/Duckiduc/cesium-gpx-viewer?style=flat&logo=github) - GPX file viewer built with React.js for GPS track visualization.
-*   [Nick_Learns_CesiumJS](https://github.com/Ice-and-Rock/Nick_Learns_CesiumJS) - Flight tracker example project demonstrating real-time tracking capabilities.
+*   [Nick_Learns_CesiumJS](https://github.com/Ice-and-Rock/Nick_Learns_CesiumJS) ⚠️ **[Outdated - 2022]** - Flight tracker example project demonstrating real-time tracking capabilities.
 
 ### Input & Interaction
 
-*   [Gesture-Controlled-3D-World](https://github.com/ps428/Gesture-Controlled-3D-World) ![GitHub stars](https://img.shields.io/github/stars/ps428/Gesture-Controlled-3D-World?style=flat&logo=github) - Navigate Cesium globe using hand gestures via MediaPipe computer vision.
+*   [Gesture-Controlled-3D-World](https://github.com/ps428/Gesture-Controlled-3D-World) ![GitHub stars](https://img.shields.io/github/stars/ps428/Gesture-Controlled-3D-World?style=flat&logo=github) ⚠️ **[Outdated - 2021]** - Navigate Cesium globe using hand gestures via MediaPipe computer vision.
 
 ## Performance & Optimization
 
-For bundle optimization, see [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) in [Tools](#tools).
+For build and bundle optimization, see [Cesium documentation](https://cesium.com/learn/).
 
 ## Analysis & Simulation
 
@@ -200,20 +185,19 @@ For flooding analysis, dynamic water surfaces, and environmental simulation, see
 
 ## SDK & Development Frameworks
 
-*   [dc-sdk](https://github.com/dvgis/dc-sdk) ![GitHub stars](https://img.shields.io/github/stars/dvgis/dc-sdk?style=flat&logo=github) - WebGIS application framework optimized for rapid development and deployment.
+*   [dc-sdk](https://github.com/dvt3d/dc-sdk) ![GitHub stars](https://img.shields.io/github/stars/dvt3d/dc-sdk?style=flat&logo=github) - WebGIS application framework optimized for rapid development and deployment.
 *   [mars3d](http://mars3d.cn/) - Mars3D platform for B/S architecture 3D client development with industry extensions.
 
 ## Open Source Projects
 
-*   [Cesium.HPUZYZ.Demo](https://github.com/YanzheZhang/Cesium.HPUZYZ.Demo) ![GitHub stars](https://img.shields.io/github/stars/YanzheZhang/Cesium.HPUZYZ.Demo?style=flat&logo=github) - Comprehensive collection of Cesium demos and examples.
-*   [ExamplesforCesium](https://github.com/pasu/ExamplesforCesium) ![GitHub stars](https://img.shields.io/github/stars/pasu/ExamplesforCesium?style=flat&logo=github) - Personal examples and tutorials for Cesium development.
+*   [Cesium.HPUZYZ.Demo](https://github.com/YanzheZhang/Cesium.HPUZYZ.Demo) ![GitHub stars](https://img.shields.io/github/stars/YanzheZhang/Cesium.HPUZYZ.Demo?style=flat&logo=github) ⚠️ **[Outdated - 2021]** - Comprehensive collection of Cesium demos and examples.
+*   [ExamplesforCesium](https://github.com/pasu/ExamplesforCesium) ![GitHub stars](https://img.shields.io/github/stars/pasu/ExamplesforCesium?style=flat&logo=github) ⚠️ **[Outdated - 2022]** - Personal examples and tutorials for Cesium development.
 
 ## Applications
 
 *   [satellite-js](https://github.com/shashwatak/satellite-js) ![GitHub stars](https://img.shields.io/github/stars/shashwatak/satellite-js?style=flat&logo=github) - Satellite orbit calculation library from TLE data, commonly used with Cesium for orbit visualization.
 *   [satvis](https://github.com/Flowm/satvis) ![GitHub stars](https://img.shields.io/github/stars/Flowm/satvis?style=flat&logo=github) - Advanced satellite orbit visualization and pass prediction.
 *   [3D-Wind-Field](https://github.com/RaymanNg/3D-Wind-Field) ![GitHub stars](https://img.shields.io/github/stars/RaymanNg/3D-Wind-Field?style=flat&logo=github) - 3D wind field visualization on Cesium globe.
-*   [Wind-Field-Cesium](https://github.com/ningsk/Wind-Field-Cesium) - Enhanced wind field visualization with customizable color configuration.
 
 ## Showcases
 
@@ -228,7 +212,7 @@ For flooding analysis, dynamic water surfaces, and environmental simulation, see
 
 ## Tools
 
-*   [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-webpack-plugin?style=flat&logo=github) - Official Webpack plugin for building Cesium applications with bundle optimization.
+*(For CesiumJS build setup and bundling, see [official documentation](https://cesium.com/learn/).)*
 
 ## Ecosystem
 
@@ -258,7 +242,7 @@ If you see a package or project here that is no longer maintained or is not a go
 ## Statistics
 
 > Last updated: January 2025  
-> Total resources: 80+  
+> Total resources: 60+  
 > Categories: 15  
 > Contributors: Welcome!
 
