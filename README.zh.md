@@ -138,7 +138,7 @@
 
 *   [cesium-navigation](https://github.com/calvinmetcalf/cesium-navigation) ![GitHub stars](https://img.shields.io/github/stars/calvinmetcalf/cesium-navigation?style=flat&logo=github) - 导航控件，包括指南针、缩放和距离比例尺
 *   [CesiumContextMenu](https://github.com/oldguysrule/CesiumContextMenu) - 右键上下文菜单插件，增强用户交互
-*   [cesium-plugins](https://github.com/syzdev/cesium-plugins) ![GitHub stars](https://img.shields.io/github/stars/syzdev/cesium-plugins?style=flat&logo=github) - 实用插件集合，包含坐标拾取、工具提示和覆盖层
+*   [cesium-plugins](https://github.com/syzdev/cesium-plugins) ![GitHub stars](https://img.shields.io/github/stars/syzdev/cesium-plugins?style=flat&logo=github) - 实用插件集合，包含坐标拾取、工具提示、覆盖层、洪水分析、动态水面和环境模拟
 *   [Cesium-Plugin](https://github.com/bingqixuan/Cesium-Plugin) - 功能丰富的插件，带有测量工具、上下文菜单和视觉效果
 
 ### 图形渲染
@@ -147,7 +147,7 @@
 
 ### 数据管理
 
-*   [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-webpack-plugin?style=flat&logo=github) - 用于构建Cesium应用程序的官方Webpack插件
+*（构建工具如 cesium-webpack-plugin 参见[工具](#工具)）*
 
 ### 数据可视化
 
@@ -176,7 +176,7 @@
 
 ### 编辑工具
 
-*   [cesium-drawhelper](https://github.com/leforthomas/cesium-drawhelper) - 早期阶段的简单几何图形形状编辑器（目前支持2D形状）
+关于形状和几何编辑，请参见[绘图与绘制](#绘图与绘制)中的 [cesium-drawhelper](https://github.com/leforthomas/cesium-drawhelper)。
 
 ### 材质与着色器效果
 
@@ -193,11 +193,11 @@
 
 ## 性能与优化
 
-*   [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) - Webpack优化插件，用于减少包大小和提高加载时间
+关于包优化，请参见[工具](#工具)中的 [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin)。
 
 ## 分析与模拟
 
-*   [cesium-plugins](https://github.com/syzdev/cesium-plugins) - 包含洪水分析、动态水面和环境模拟工具
+关于洪水分析、动态水面和环境模拟，请参见[库和插件](#库和插件)中的 [cesium-plugins](https://github.com/syzdev/cesium-plugins)。
 
 ## SDK与开发框架
 
@@ -211,7 +211,7 @@
 
 ## 应用案例
 
-*   [cesium-satellites](https://github.com/shashwatak/satellite-js) ![GitHub stars](https://img.shields.io/github/stars/shashwatak/satellite-js?style=flat&logo=github) - 使用TLE数据进行卫星轨道可视化
+*   [satellite-js](https://github.com/shashwatak/satellite-js) ![GitHub stars](https://img.shields.io/github/stars/shashwatak/satellite-js?style=flat&logo=github) - 基于TLE数据的卫星轨道计算库，常与Cesium配合用于轨道可视化
 *   [satvis](https://github.com/Flowm/satvis) ![GitHub stars](https://img.shields.io/github/stars/Flowm/satvis?style=flat&logo=github) - 高级卫星轨道可视化和过境预测
 *   [3D-Wind-Field](https://github.com/RaymanNg/3D-Wind-Field) ![GitHub stars](https://img.shields.io/github/stars/RaymanNg/3D-Wind-Field?style=flat&logo=github) - Cesium地球上的3D风场可视化
 *   [Wind-Field-Cesium](https://github.com/ningsk/Wind-Field-Cesium) - 具有可自定义颜色配置的增强风场可视化
@@ -229,13 +229,12 @@
 
 ## 工具
 
-*   [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) - Cesium应用程序开发的必备Webpack插件
+*   [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-webpack-plugin?style=flat&logo=github) - 用于构建Cesium应用程序和包优化的官方Webpack插件
 
 ## 生态系统
 
-*   [cesium-unreal](https://github.com/CesiumGS/cesium-unreal) - 将3D地理空间能力引入虚幻引擎
-*   [cesium-unity](https://github.com/CesiumGS/cesium-unity) - Unity开发的高精度3D地理空间内容
-*   [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) - NVIDIA Omniverse平台的Cesium连接器
+*   [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-omniverse?style=flat&logo=github) - NVIDIA Omniverse平台的Cesium连接器
+*   有关 Unity、Unreal 和 Godot 插件，请参见[游戏引擎集成](#游戏引擎集成)
 
 ## 贡献
 

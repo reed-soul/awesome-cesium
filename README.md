@@ -137,7 +137,7 @@
 
 *   [cesium-navigation](https://github.com/calvinmetcalf/cesium-navigation) ![GitHub stars](https://img.shields.io/github/stars/calvinmetcalf/cesium-navigation?style=flat&logo=github) - Navigation controls including compass, zoom, and distance scale.
 *   [CesiumContextMenu](https://github.com/oldguysrule/CesiumContextMenu) - Right-click context menu plugin for enhanced user interaction.
-*   [cesium-plugins](https://github.com/syzdev/cesium-plugins) ![GitHub stars](https://img.shields.io/github/stars/syzdev/cesium-plugins?style=flat&logo=github) - Collection of practical plugins for coordinate picking, tooltips, and overlays.
+*   [cesium-plugins](https://github.com/syzdev/cesium-plugins) ![GitHub stars](https://img.shields.io/github/stars/syzdev/cesium-plugins?style=flat&logo=github) - Collection of practical plugins for coordinate picking, tooltips, overlays, flooding analysis, dynamic water surfaces, and environmental simulation.
 *   [Cesium-Plugin](https://github.com/bingqixuan/Cesium-Plugin) - Feature-rich plugin with measurement tools, context menus, and visual effects.
 
 ### Graphics
@@ -146,7 +146,7 @@
 
 ### Data Management
 
-*   [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-webpack-plugin?style=flat&logo=github) - Official Webpack plugin for building Cesium applications.
+*(Build tools such as cesium-webpack-plugin are listed in [Tools](#tools).)*
 
 ### Data Visualization
 
@@ -175,7 +175,7 @@
 
 ### Editor Tools
 
-*   [cesium-drawhelper](https://github.com/leforthomas/cesium-drawhelper) - Early-stage shape editor for simple geometries (currently supports 2D shapes).
+For shape and geometry editing, see [cesium-drawhelper](https://github.com/leforthomas/cesium-drawhelper) in [Plotting & Drawing](#plotting--drawing).
 
 ### Material & Shader Effects
 
@@ -192,11 +192,11 @@
 
 ## Performance & Optimization
 
-*   [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) - Webpack optimization plugin for reducing bundle size and improving load times.
+For bundle optimization, see [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) in [Tools](#tools).
 
 ## Analysis & Simulation
 
-*   [cesium-plugins](https://github.com/syzdev/cesium-plugins) - Includes flooding analysis, dynamic water surfaces, and environmental simulation tools.
+For flooding analysis, dynamic water surfaces, and environmental simulation, see [cesium-plugins](https://github.com/syzdev/cesium-plugins) in [Libraries & Plugins](#libraries--plugins).
 
 ## SDK & Development Frameworks
 
@@ -210,7 +210,7 @@
 
 ## Applications
 
-*   [cesium-satellites](https://github.com/shashwatak/satellite-js) ![GitHub stars](https://img.shields.io/github/stars/shashwatak/satellite-js?style=flat&logo=github) - Satellite orbit visualization using TLE data.
+*   [satellite-js](https://github.com/shashwatak/satellite-js) ![GitHub stars](https://img.shields.io/github/stars/shashwatak/satellite-js?style=flat&logo=github) - Satellite orbit calculation library from TLE data, commonly used with Cesium for orbit visualization.
 *   [satvis](https://github.com/Flowm/satvis) ![GitHub stars](https://img.shields.io/github/stars/Flowm/satvis?style=flat&logo=github) - Advanced satellite orbit visualization and pass prediction.
 *   [3D-Wind-Field](https://github.com/RaymanNg/3D-Wind-Field) ![GitHub stars](https://img.shields.io/github/stars/RaymanNg/3D-Wind-Field?style=flat&logo=github) - 3D wind field visualization on Cesium globe.
 *   [Wind-Field-Cesium](https://github.com/ningsk/Wind-Field-Cesium) - Enhanced wind field visualization with customizable color configuration.
@@ -228,13 +228,12 @@
 
 ## Tools
 
-*   [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) - Essential Webpack plugin for Cesium application development.
+*   [cesium-webpack-plugin](https://github.com/CesiumGS/cesium-webpack-plugin) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-webpack-plugin?style=flat&logo=github) - Official Webpack plugin for building Cesium applications with bundle optimization.
 
 ## Ecosystem
 
-*   [cesium-unreal](https://github.com/CesiumGS/cesium-unreal) - Bringing 3D geospatial capabilities to Unreal Engine.
-*   [cesium-unity](https://github.com/CesiumGS/cesium-unity) - High-accuracy 3D geospatial content for Unity development.
-*   [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) - Cesium connector for NVIDIA Omniverse platform.
+*   [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-omniverse?style=flat&logo=github) - Cesium connector for NVIDIA Omniverse platform.
+*   See [Game Engine Integration](#game-engine-integration) for Unity, Unreal, and Godot plugins.
 
 ## Contributing
 
@@ -268,4 +267,4 @@ If you see a package or project here that is no longer maintained or is not a go
 - 🆕 Recently added/updated
 - 📱 Mobile-friendly
 - ⚡ Performance-focused
-- �� Great for learning 
+- 📚 Great for learning 
