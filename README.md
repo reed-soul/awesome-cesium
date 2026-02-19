@@ -249,7 +249,7 @@ If you see a package or project here that is no longer maintained or is not a go
 
 ## Statistics
 
-> Last updated: January 2025  
+> Last updated: February 2025  
 > Total resources: 70+  
 > Categories: 15  
 > Contributors: Welcome!
@@ -259,4 +259,7 @@ If you see a package or project here that is no longer maintained or is not a go
 - 🆕 Recently added/updated
 - 📱 Mobile-friendly
 - ⚡ Performance-focused
-- 📚 Great for learning 
+- 📚 Great for learning
+- ⚠️ **[Outdated - YEAR]** - No maintenance in 24+ months (kept for reference)
+
+*Resources are curated for CesiumJS 1.x compatibility. See [Inclusion Criteria](docs/INCLUSION_CRITERIA.md) for quality standards.* 

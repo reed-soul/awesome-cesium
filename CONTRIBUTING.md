@@ -103,9 +103,10 @@ If you believe a new category is needed:
 - **Action**: No manual intervention needed
 
 ### Quality Checks
-- **Frequency**: Monthly
-- **Process**: Reviews repository activity, last commits, and maintenance status
-- **Action**: Labels outdated resources and creates maintenance issues
+- **Frequency**: Monthly (1st of each month)
+- **Process**: Runs `scripts/quality-check.mjs` to audit GitHub repo activity
+- **Action**: Creates issues for outdated (24+ months inactive) or 404 repositories
+- **Details**: See [Inclusion Criteria](docs/INCLUSION_CRITERIA.md)
 
 ## 🛠️ Issue Templates
 
