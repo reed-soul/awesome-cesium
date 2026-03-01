@@ -143,7 +143,6 @@
 
 *   [ol-cesium](https://github.com/openlayers/ol-cesium) ![GitHub stars](https://img.shields.io/github/stars/openlayers/ol-cesium?style=flat&logo=github) 🌟 - OpenLayers 与 Cesium 集成，支持 2D/3D 地图切换
 *   [3DTilesRendererJS](https://github.com/NASA-AMMOS/3DTilesRendererJS) ![GitHub stars](https://img.shields.io/github/stars/NASA-AMMOS/3DTilesRendererJS?style=flat&logo=github) - Three.js 的 3D Tiles 渲染器
-*   [cesium-webxr](https://github.com/pupitetris/cesium-webxr) ![GitHub stars](https://img.shields.io/github/stars/pupitetris/cesium-webxr?style=flat&logo=github) - POC：现代 WebXR 支持
 
 ### 数据提供者
 
@@ -210,7 +209,7 @@
 *   **3D Tiles Next** — 流式规范的演进；[Cesium](https://github.com/CesiumGS/cesium) 中有实验性支持。关注 [Cesium 博客](https://cesium.com/blog/) 获取动态。
 *   **Cesium ion** — 3D 地理空间云平台；流式传输、瓦片化、摄影测量与托管。生产部署的默认选择。
 *   **游戏引擎** — [Unity](https://github.com/CesiumGS/cesium-unity)、[Unreal](https://github.com/CesiumGS/cesium-unreal)、[Godot](https://godotengine.org/asset-library/asset/2807) 将 Cesium 与 3D Tiles 带入实时引擎。
-*   **Omniverse 与 WebXR** — [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) 支持 NVIDIA Omniverse；[cesium-webxr](https://github.com/pupitetris/cesium-webxr) 支持浏览器内 VR/AR。
+*   **Omniverse** — [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) 支持 NVIDIA Omniverse。
 
 ## 已归档/历史
 
@@ -230,6 +229,7 @@
 *   [CesiumExp-measure](https://github.com/gitgitczl/CesiumExp-measure) (2021) - 测量插件
 *   [CesiumMeshVisualizer](https://github.com/MikesWei/CesiumMeshVisualizer) (2021) - Cesium 中的 Three.js 几何体
 *   [CesiumRoadImageFlowMaterial](https://github.com/WaterSeeding/CesiumRoadImageFlowMaterial) (2022) - 道路流动材质
+*   [cesium-webxr](https://github.com/pupitetris/cesium-webxr) (2022) - 浏览器内 VR/AR WebXR 概念验证
 
 ### 示例与演示
 *   [Cesium.HPUZYZ.Demo](https://github.com/YanzheZhang/Cesium.HPUZYZ.Demo) (2021)
@@ -262,10 +262,10 @@
 
 ## 统计信息
 
-> 最后更新：2025年2月  
-> 活跃资源：35+  
-> 已归档：14  
-> 分类数：12  
+> 最后更新：2026年3月
+> 活跃资源：35+
+> 已归档：16
+> 分类数：12
 
 **图例说明：**
 - 🌟 **推荐** — 活跃维护、广泛使用、面向未来
