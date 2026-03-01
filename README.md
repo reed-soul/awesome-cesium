@@ -143,7 +143,6 @@ See [Cesium documentation](https://cesium.com/learn/) for build and bundling gui
 
 *   [ol-cesium](https://github.com/openlayers/ol-cesium) ![GitHub stars](https://img.shields.io/github/stars/openlayers/ol-cesium?style=flat&logo=github) 🌟 - OpenLayers - Cesium integration for 2D/3D map switching.
 *   [3DTilesRendererJS](https://github.com/NASA-AMMOS/3DTilesRendererJS) ![GitHub stars](https://img.shields.io/github/stars/NASA-AMMOS/3DTilesRendererJS?style=flat&logo=github) - 3D Tiles renderer for Three.js, alternative to Cesium for 3D Tiles visualization.
-*   [cesium-webxr](https://github.com/pupitetris/cesium-webxr) ![GitHub stars](https://img.shields.io/github/stars/pupitetris/cesium-webxr?style=flat&logo=github) - POC: Modern WebXR support for immersive VR/AR experiences.
 
 ### Data Providers
 
@@ -199,7 +198,7 @@ For build and bundle optimization, see [Cesium documentation](https://cesium.com
 *   **3D Tiles Next** — Evolution of the streaming specification; experimental support in [Cesium](https://github.com/CesiumGS/cesium). Follow [Cesium Blog](https://cesium.com/blog/) for announcements.
 *   **Cesium ion** — Cloud platform for 3D geospatial; streaming, tiling, photogrammetry, and hosting. The default for production deployments.
 *   **Game Engines** — [Unity](https://github.com/CesiumGS/cesium-unity), [Unreal](https://github.com/CesiumGS/cesium-unreal), [Godot](https://godotengine.org/asset-library/asset/2807) bring Cesium and 3D Tiles to real-time engines.
-*   **Omniverse & WebXR** — [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) for NVIDIA Omniverse; [cesium-webxr](https://github.com/pupitetris/cesium-webxr) for VR/AR in the browser.
+*   **Omniverse** — [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) for NVIDIA Omniverse.
 
 ## Tools
 
@@ -230,6 +229,7 @@ For build and bundle optimization, see [Cesium documentation](https://cesium.com
 *   [CesiumExp-measure](https://github.com/gitgitczl/CesiumExp-measure) (2021) - Measurement plugin
 *   [CesiumMeshVisualizer](https://github.com/MikesWei/CesiumMeshVisualizer) (2021) - Three.js geometry in Cesium
 *   [CesiumRoadImageFlowMaterial](https://github.com/WaterSeeding/CesiumRoadImageFlowMaterial) (2022) - Road flow material
+*   [cesium-webxr](https://github.com/pupitetris/cesium-webxr) (2022) - WebXR POC for VR/AR experiences
 
 ### Examples & Demos
 *   [Cesium.HPUZYZ.Demo](https://github.com/YanzheZhang/Cesium.HPUZYZ.Demo) (2021)
@@ -262,10 +262,10 @@ If you see a package or project here that is no longer maintained or is not a go
 
 ## Statistics
 
-> Last updated: February 2025  
-> Active resources: 35+  
-> Archived (legacy): 14  
-> Categories: 12  
+> Last updated: March 2026
+> Active resources: 35+
+> Archived (legacy): 16
+> Categories: 12
 
 **Legend:**
 - 🌟 **Recommended** — Actively maintained, widely used, future-oriented
