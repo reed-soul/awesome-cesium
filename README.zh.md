@@ -71,6 +71,7 @@
 *   [官方文档](https://cesium.com/learn/) - 完整的文档、教程和API参考
 *   [官方示例](https://sandcastle.cesium.com/) - 交互式代码示例和演示
 *   [GitHub仓库](https://github.com/CesiumGS/cesium) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium?style=flat&logo=github) - CesiumJS官方开源仓库
+*   [Cesium Native](https://github.com/CesiumGS/cesium-native) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-native?style=flat&logo=github) - 基础 C++ 库，用于 3D Tiles、地形和地理空间处理。驱动 Cesium for Unreal、Unity 和 Omniverse。
 *   [3D Tiles规范](https://github.com/CesiumGS/3d-tiles) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles?style=flat&logo=github) - 流式3D地理空间内容的开放规范
 
 ## 社区
@@ -131,6 +132,8 @@
 *   [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) ![GitHub stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=flat&logo=github) 🌟 - glTF 2.0 SDK，支持优化、压缩与转换
 *   [obj2gltf](https://github.com/CesiumGS/obj2gltf) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/obj2gltf?style=flat&logo=github) - 官方 Node.js 工具，将 OBJ 转为 glTF 2.0
 *   [citygml-to-3dtiles](https://github.com/njam/citygml-to-3dtiles) - CityGML 转 Cesium 3D Tiles 的实验性转换器
+*   [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/glTF-Blender-IO?style=flat&logo=github) 🌟 - Blender 官方 glTF 2.0 导入/导出插件，3D Tiles 模型制作的必备工具
+*   [spz](https://github.com/CesiumGS/spz) - 开源 SPZ 3D 高斯泼溅文件格式，比 PLY 小约 10 倍，视觉质量几乎无损。由 Niantic Labs 提供。
 
 ## 库和插件
 
@@ -197,6 +200,8 @@
 *   [satvis](https://github.com/Flowm/satvis) ![GitHub stars](https://img.shields.io/github/stars/Flowm/satvis?style=flat&logo=github) - 高级卫星轨道可视化和过境预测
 *   [3D-Wind-Field](https://github.com/RaymanNg/3D-Wind-Field) ![GitHub stars](https://img.shields.io/github/stars/RaymanNg/3D-Wind-Field?style=flat&logo=github) - Cesium地球上的3D风场可视化
 *   [TerriaJS](https://github.com/TerriaJS/terriajs) ![GitHub stars](https://img.shields.io/github/stars/TerriaJS/terriajs?style=flat&logo=github) - 构建丰富地理空间2D/3D数据平台的库，支持Cesium
+*   [MapStore2](https://github.com/geosolutions-it/MapStore2) ![GitHub stars](https://img.shields.io/github/stars/geosolutions-it/MapStore2?style=flat&logo=github) - 开源框架，支持创建和共享地图、仪表盘和地理故事，集成 Cesium 3D 支持
+*   [SuperMap iClient-JavaScript](https://github.com/SuperMap/iClient-JavaScript) ![GitHub stars](https://img.shields.io/github/stars/SuperMap/iClient-JavaScript?style=flat&logo=github) - 现代 GIS Web 客户端，支持 Leaflet、OpenLayers、MapboxGL 和 CesiumJS，集成 ECharts、D3 和 MapV
 
 ## 展示案例
 
@@ -208,6 +213,7 @@
 *   [Cesium Ion](https://ion.cesium.com/) 🌟 - 3D 地理空间内容的流式传输、托管与处理云平台；含地形、影像、3D Tiles、摄影测量
 *   [OpenStreetMap](https://www.openstreetmap.org/) - 提供全球地图数据的协作平台
 *   [Natural Earth](https://www.naturalearthdata.com/) - 公共领域地图数据集
+*   [PMTiles](https://github.com/protomaps/PMTiles) ![GitHub stars](https://img.shields.io/github/stars/protomaps/PMTiles?style=flat&logo=github) - 单文件地图瓦片格式，支持离线部署和静态托管，兼容 Cesium
 
 ## 工具
 
@@ -285,7 +291,7 @@
 ## 统计信息
 
 > 最后更新：2026年3月  
-> 活跃资源：40+  
+> 活跃资源：45+  
 > 已归档：14  
 > 分类数：14  
 

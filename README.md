@@ -71,6 +71,7 @@ New to Cesium? Start here:
 *   [Documentation](https://cesium.com/learn/) - Comprehensive documentation, tutorials, and API reference.
 *   [Official Examples](https://sandcastle.cesium.com/) - Interactive code examples and demos.
 *   [GitHub Repository](https://github.com/CesiumGS/cesium) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium?style=flat&logo=github) - The official open-source CesiumJS repository.
+*   [Cesium Native](https://github.com/CesiumGS/cesium-native) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-native?style=flat&logo=github) - Foundational C++ library for 3D Tiles, terrain, and geospatial processing. Powers Cesium for Unreal, Unity, and Omniverse.
 *   [3D Tiles Specification](https://github.com/CesiumGS/3d-tiles) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles?style=flat&logo=github) - Open specification for streaming 3D geospatial content.
 
 ## Community
@@ -131,6 +132,8 @@ New to Cesium? Start here:
 *   [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) ![GitHub stars](https://img.shields.io/github/stars/donmccurdy/glTF-Transform?style=flat&logo=github) 🌟 - glTF 2.0 SDK for JavaScript and TypeScript with optimization, compression, and conversion tools.
 *   [obj2gltf](https://github.com/CesiumGS/obj2gltf) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/obj2gltf?style=flat&logo=github) - Official Node.js tool for converting OBJ assets to glTF 2.0.
 *   [citygml-to-3dtiles](https://github.com/njam/citygml-to-3dtiles) - Experimental converter from CityGML to Cesium 3D Tiles.
+*   [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/glTF-Blender-IO?style=flat&logo=github) 🌟 - Official Blender add-on for glTF 2.0 import/export. Essential for creating and editing models destined for 3D Tiles.
+*   [spz](https://github.com/CesiumGS/spz) - Open-source SPZ file format for 3D Gaussian Splats. ~10x smaller than PLY with virtually no perceptible loss. Offered by Niantic Labs.
 
 ## Libraries & Plugins
 
@@ -197,6 +200,8 @@ For build and bundle optimization, see [Cesium documentation](https://cesium.com
 *   [satvis](https://github.com/Flowm/satvis) ![GitHub stars](https://img.shields.io/github/stars/Flowm/satvis?style=flat&logo=github) - Advanced satellite orbit visualization and pass prediction.
 *   [3D-Wind-Field](https://github.com/RaymanNg/3D-Wind-Field) ![GitHub stars](https://img.shields.io/github/stars/RaymanNg/3D-Wind-Field?style=flat&logo=github) - 3D wind field visualization on Cesium globe.
 *   [TerriaJS](https://github.com/TerriaJS/terriajs) ![GitHub stars](https://img.shields.io/github/stars/TerriaJS/terriajs?style=flat&logo=github) - Library for building rich geospatial 2D & 3D data platforms with Cesium support.
+*   [MapStore2](https://github.com/geosolutions-it/MapStore2) ![GitHub stars](https://img.shields.io/github/stars/geosolutions-it/MapStore2?style=flat&logo=github) - Open-source framework for creating and sharing maps, dashboards, and geostories with 3D Cesium support.
+*   [SuperMap iClient-JavaScript](https://github.com/SuperMap/iClient-JavaScript) ![GitHub stars](https://img.shields.io/github/stars/SuperMap/iClient-JavaScript?style=flat&logo=github) - Modern GIS web client supporting Leaflet, OpenLayers, MapboxGL, and CesiumJS. Enhanced with ECharts, D3, and MapV.
 
 ## Showcases
 
@@ -208,6 +213,7 @@ For build and bundle optimization, see [Cesium documentation](https://cesium.com
 *   [Cesium Ion](https://ion.cesium.com/) 🌟 - Cloud platform for streaming, hosting, and processing 3D geospatial content; includes terrain, imagery, 3D Tiles, and photogrammetry.
 *   [OpenStreetMap](https://www.openstreetmap.org/) - Collaborative mapping platform providing global map data.
 *   [Natural Earth](https://www.naturalearthdata.com/) - Public domain map dataset for cartographers.
+*   [PMTiles](https://github.com/protomaps/PMTiles) ![GitHub stars](https://img.shields.io/github/stars/protomaps/PMTiles?style=flat&logo=github) - Map tiles in a single file on static storage. Enables offline-capable, self-hosted tile serving compatible with Cesium.
 
 ## Future & Emerging
 
@@ -285,7 +291,7 @@ If you see a package or project here that is no longer maintained or is not a go
 ## Statistics
 
 > Last updated: March 2026  
-> Active resources: 40+  
+> Active resources: 45+  
 > Archived (legacy): 14  
 > Categories: 14
 
