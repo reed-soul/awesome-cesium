@@ -48,6 +48,9 @@ New to Cesium? Start here:
   - [GPS & Tracking](#gps--tracking)
   - [Input & Interaction](#input--interaction)
 - [Performance & Optimization](#performance--optimization)
+- [AI Integration](#ai-integration)
+  - [MCP Servers](#mcp-servers)
+  - [Agent Skills & Tools](#agent-skills--tools)
 - [SDK & Development Frameworks](#sdk--development-frameworks)
 - [Open Source Projects](#open-source-projects)
 - [Applications](#applications)
@@ -165,6 +168,20 @@ See [Cesium documentation](https://cesium.com/learn/) for build and bundling gui
 
 For build and bundle optimization, see [Cesium documentation](https://cesium.com/learn/).
 
+## AI Integration
+
+*The Cesium ecosystem is rapidly integrating with AI systems. This section covers MCP servers, agent skills, and AI-assisted geospatial workflows.*
+
+### MCP Servers
+
+*   [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-ai-integrations?style=flat&logo=github) 🌟 — Official Cesium collection of MCP servers, apps, and agent skills for connecting AI systems with CesiumJS.
+*   [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) ![GitHub stars](https://img.shields.io/github/stars/gaopengbin/cesium-mcp?style=flat&logo=github) — Community MCP bridge providing 58 tools for camera control, entity management, 3D Tiles, terrain, imagery layers, and spatial analysis. Supports stdio and WebSocket modes.
+
+### Agent Skills & Tools
+
+*   [cesium-vscode](https://github.com/CesiumGS/cesium-vscode) — Official Visual Studio Code extension for CesiumJS development.
+*   [Context7 Cesium Server](https://context7.com/) — MCP server providing AI tools with real-time access to latest CesiumJS documentation and API references to reduce hallucinations.
+
 ## SDK & Development Frameworks
 
 *   [dc-sdk](https://github.com/dvt3d/dc-sdk) ![GitHub stars](https://img.shields.io/github/stars/dvt3d/dc-sdk?style=flat&logo=github) 🌟 - WebGIS application framework optimized for rapid development and deployment.
@@ -196,6 +213,8 @@ For build and bundle optimization, see [Cesium documentation](https://cesium.com
 
 *Technologies and directions shaping the Cesium ecosystem.*
 
+*   **AI & MCP** — [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) for MCP servers and agent skills; community [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) for natural language 3D globe control.
+*   **3D Gaussian Splatting** — Experimental support in CesiumJS via [SPZ format](https://github.com/CesiumGS/spz) and [spz-loader](https://github.com/CesiumGS/spz-loader); enables photorealistic 3D scene rendering from captured data.
 *   **3D Tiles Next** — Evolution of the streaming specification; experimental support in [Cesium](https://github.com/CesiumGS/cesium). Follow [Cesium Blog](https://cesium.com/blog/) for announcements.
 *   **Cesium ion** — Cloud platform for 3D geospatial; streaming, tiling, photogrammetry, and hosting. The default for production deployments.
 *   **Game Engines** — [Unity](https://github.com/CesiumGS/cesium-unity), [Unreal](https://github.com/CesiumGS/cesium-unreal), [Godot](https://godotengine.org/asset-library/asset/2807) bring Cesium and 3D Tiles to real-time engines.
@@ -205,6 +224,9 @@ For build and bundle optimization, see [Cesium documentation](https://cesium.com
 
 *   [3d-tiles-validator](https://github.com/CesiumGS/3d-tiles-validator) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-validator?style=flat&logo=github) - Official validator for 3D Tiles tilesets.
 *   [3d-tiles-samples](https://github.com/CesiumGS/3d-tiles-samples) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-samples?style=flat&logo=github) - Sample tilesets for learning and testing 3D Tiles.
+*   [spz-loader](https://github.com/CesiumGS/spz-loader) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/spz-loader?style=flat&logo=github) - Official .spz 3D Gaussian Splatting format loader for CesiumJS.
+*   [cesium-vscode](https://github.com/CesiumGS/cesium-vscode) - Official VS Code extension for CesiumJS development.
+*   [cesiumjs-workshop](https://github.com/CesiumGS/cesiumjs-workshop) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesiumjs-workshop?style=flat&logo=github) - Deep dive workshop materials from the 2025 Cesium Developer Conference.
 *   For CesiumJS build setup and bundling, see [official documentation](https://cesium.com/learn/).
 
 ## Ecosystem
@@ -262,14 +284,14 @@ If you see a package or project here that is no longer maintained or is not a go
 
 ## Statistics
 
-> Last updated: February 2025  
-> Active resources: 35+  
+> Last updated: March 2026  
+> Active resources: 40+  
 > Archived (legacy): 14  
-> Categories: 12  
+> Categories: 14
 
 **Legend:**
 - 🌟 **Recommended** — Actively maintained, widely used, future-oriented
 - 📚 Great for learning
 - See [Archived / Legacy](#archived--legacy) for deprecated resources
 
-*Curated for CesiumJS 1.x. Only actively maintained resources in the main list. See [Inclusion Criteria](docs/INCLUSION_CRITERIA.md).* 
+*Curated for CesiumJS 1.x (currently 1.139). Only actively maintained resources in the main list. See [Inclusion Criteria](docs/INCLUSION_CRITERIA.md).* 

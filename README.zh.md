@@ -48,6 +48,9 @@
   - [GPS与跟踪](#gps与跟踪)
   - [输入与交互](#输入与交互)
 - [性能与优化](#性能与优化)
+- [AI 集成](#ai-集成)
+  - [MCP 服务器](#mcp-服务器)
+  - [Agent 技能与工具](#agent-技能与工具)
 - [SDK与开发框架](#sdk与开发框架)
 - [开源项目](#开源项目)
 - [应用案例](#应用案例)
@@ -165,6 +168,20 @@
 
 构建和包优化请参见 [Cesium 文档](https://cesium.com/learn/)。
 
+## AI 集成
+
+*Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agent 技能和 AI 辅助地理空间工作流。*
+
+### MCP 服务器
+
+*   [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-ai-integrations?style=flat&logo=github) 🌟 — Cesium 官方的 MCP 服务器、应用和 Agent 技能集合，连接 AI 系统与 CesiumJS。
+*   [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) ![GitHub stars](https://img.shields.io/github/stars/gaopengbin/cesium-mcp?style=flat&logo=github) — 社区 MCP 桥接，提供 58 个工具，支持相机控制、实体管理、3D Tiles、地形、影像图层和空间分析。支持 stdio 和 WebSocket 模式。
+
+### Agent 技能与工具
+
+*   [cesium-vscode](https://github.com/CesiumGS/cesium-vscode) — CesiumJS 官方 VS Code 扩展。
+*   [Context7 Cesium Server](https://context7.com/) — MCP 服务器，为 AI 工具提供实时 CesiumJS 文档和 API 参考，减少幻觉。
+
 ## SDK与开发框架
 
 *   [dc-sdk](https://github.com/dvt3d/dc-sdk) ![GitHub stars](https://img.shields.io/github/stars/dvt3d/dc-sdk?style=flat&logo=github) 🌟 - 面向快速开发和部署的 WebGIS 应用框架
@@ -196,6 +213,9 @@
 
 *   [3d-tiles-validator](https://github.com/CesiumGS/3d-tiles-validator) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-validator?style=flat&logo=github) - 官方3D Tiles瓦片集校验工具
 *   [3d-tiles-samples](https://github.com/CesiumGS/3d-tiles-samples) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-samples?style=flat&logo=github) - 用于学习和测试3D Tiles的示例瓦片集
+*   [spz-loader](https://github.com/CesiumGS/spz-loader) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/spz-loader?style=flat&logo=github) - 官方 .spz 3D 高斯泼溅格式加载器
+*   [cesium-vscode](https://github.com/CesiumGS/cesium-vscode) - CesiumJS 官方 VS Code 扩展
+*   [cesiumjs-workshop](https://github.com/CesiumGS/cesiumjs-workshop) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesiumjs-workshop?style=flat&logo=github) - 2025 Cesium 开发者大会深度研讨材料
 *   CesiumJS 构建和打包说明请参见[官方文档](https://cesium.com/learn/)
 
 ## 生态系统
@@ -207,6 +227,8 @@
 
 *塑造 Cesium 生态的技术与方向。*
 
+*   **AI 与 MCP** — [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) 提供 MCP 服务器和 Agent 技能；社区 [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) 支持自然语言控制 3D 地球。
+*   **3D 高斯泼溅** — CesiumJS 实验性支持，通过 [SPZ 格式](https://github.com/CesiumGS/spz) 和 [spz-loader](https://github.com/CesiumGS/spz-loader) 实现从采集数据的照片级 3D 场景渲染。
 *   **3D Tiles Next** — 流式规范的演进；[Cesium](https://github.com/CesiumGS/cesium) 中有实验性支持。关注 [Cesium 博客](https://cesium.com/blog/) 获取动态。
 *   **Cesium ion** — 3D 地理空间云平台；流式传输、瓦片化、摄影测量与托管。生产部署的默认选择。
 *   **游戏引擎** — [Unity](https://github.com/CesiumGS/cesium-unity)、[Unreal](https://github.com/CesiumGS/cesium-unreal)、[Godot](https://godotengine.org/asset-library/asset/2807) 将 Cesium 与 3D Tiles 带入实时引擎。
@@ -262,14 +284,14 @@
 
 ## 统计信息
 
-> 最后更新：2025年2月  
-> 活跃资源：35+  
+> 最后更新：2026年3月  
+> 活跃资源：40+  
 > 已归档：14  
-> 分类数：12  
+> 分类数：14  
 
 **图例说明：**
 - 🌟 **推荐** — 活跃维护、广泛使用、面向未来
 - 📚 适合学习
 - 已弃用资源见[已归档/历史](#已归档历史)
 
-*主列表仅含活跃维护资源，基于 CesiumJS 1.x。详见[收录标准](docs/INCLUSION_CRITERIA.zh.md)。* 
+*主列表仅含活跃维护资源，基于 CesiumJS 1.x（当前 1.139）。详见[收录标准](docs/INCLUSION_CRITERIA.zh.md)。* 
