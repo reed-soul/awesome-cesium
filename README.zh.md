@@ -16,7 +16,7 @@
 初次使用 Cesium？从这里开始：
 
 1. **[官方文档](https://cesium.com/learn/)** — 教程与 API 参考
-2. **[Sandcastle](https://sandcastle.cesium.com/)** — 交互式代码示例
+2. **[Sandcastle](https://sandcastle.cesium.com/)** — 交互式代码示例（支持 [AI 语义搜索](https://cesium.com/blog/2026/03/19/ai-driven-semantic-search-sandcastle/)）
 3. **框架**：Vue → [vue-cesium](https://github.com/zouyaoji/vue-cesium) 🌟 | React → [resium](https://github.com/reearth/resium) 🌟
 4. **示例**：[Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) — 200+ 示例 🌟
 
@@ -117,7 +117,7 @@
 
 *   [3D Tiles for Godot](https://godotengine.org/asset-library/asset/2807) - 为Godot引擎提供3D Tiles支持的官方插件（2025年由Battle Road发布）
 *   [cesium-unreal](https://github.com/CesiumGS/cesium-unreal) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-unreal?style=flat&logo=github) 🌟 - 将3D地理空间生态系统引入虚幻引擎
-*   [cesium-unity](https://github.com/CesiumGS/cesium-unity) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-unity?style=flat&logo=github) 🌟 - 为Unity提供高精度3D地理空间内容
+*   [cesium-unity](https://github.com/CesiumGS/cesium-unity) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-unity?style=flat&logo=github) 🌟 - 为Unity提供高精度3D地理空间内容，v1.20.0 起支持 Web 部署
 
 ## 数据处理
 
@@ -234,10 +234,10 @@
 *塑造 Cesium 生态的技术与方向。*
 
 *   **AI 与 MCP** — [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) 提供 MCP 服务器和 Agent 技能；社区 [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) 支持自然语言控制 3D 地球。
-*   **3D 高斯泼溅** — CesiumJS 实验性支持，通过 [SPZ 格式](https://github.com/CesiumGS/spz) 和 [spz-loader](https://github.com/CesiumGS/spz-loader) 实现从采集数据的照片级 3D 场景渲染。
+*   **3D 高斯泼溅** — CesiumJS 实验性支持日趋成熟，通过 [SPZ 格式](https://github.com/CesiumGS/spz) 和 [spz-loader](https://github.com/CesiumGS/spz-loader) 实现从采集数据的照片级 3D 场景渲染；1.140 版本大幅提升了加载与渲染性能，修复了大规模数据集崩溃问题。
 *   **3D Tiles Next** — 流式规范的演进；[Cesium](https://github.com/CesiumGS/cesium) 中有实验性支持。关注 [Cesium 博客](https://cesium.com/blog/) 获取动态。
 *   **Cesium ion** — 3D 地理空间云平台；流式传输、瓦片化、摄影测量与托管。生产部署的默认选择。
-*   **游戏引擎** — [Unity](https://github.com/CesiumGS/cesium-unity)、[Unreal](https://github.com/CesiumGS/cesium-unreal)、[Godot](https://godotengine.org/asset-library/asset/2807) 将 Cesium 与 3D Tiles 带入实时引擎。
+*   **游戏引擎** — [Unity](https://github.com/CesiumGS/cesium-unity)（已支持 Web 部署）、[Unreal](https://github.com/CesiumGS/cesium-unreal)、[Godot](https://godotengine.org/asset-library/asset/2807) 将 Cesium 与 3D Tiles 带入实时引擎。
 *   **Omniverse 与 WebXR** — [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) 支持 NVIDIA Omniverse；[cesium-webxr](https://github.com/pupitetris/cesium-webxr) 支持浏览器内 VR/AR。
 
 ## 已归档/历史
@@ -290,7 +290,7 @@
 
 ## 统计信息
 
-> 最后更新：2026年3月  
+> 最后更新：2026年4月  
 > 活跃资源：45+  
 > 已归档：14  
 > 分类数：14  
@@ -300,4 +300,4 @@
 - 📚 适合学习
 - 已弃用资源见[已归档/历史](#已归档历史)
 
-*主列表仅含活跃维护资源，基于 CesiumJS 1.x（当前 1.139）。详见[收录标准](docs/INCLUSION_CRITERIA.zh.md)。* 
+*主列表仅含活跃维护资源，基于 CesiumJS 1.x（当前 1.140）。详见[收录标准](docs/INCLUSION_CRITERIA.zh.md）。* 

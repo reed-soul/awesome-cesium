@@ -16,7 +16,7 @@
 New to Cesium? Start here:
 
 1. **[Official Documentation](https://cesium.com/learn/)** — Tutorials and API reference
-2. **[Sandcastle](https://sandcastle.cesium.com/)** — Interactive code examples
+2. **[Sandcastle](https://sandcastle.cesium.com/)** — Interactive code examples (now with [AI semantic search](https://cesium.com/blog/2026/03/19/ai-driven-semantic-search-sandcastle/))
 3. **Framework**: Vue → [vue-cesium](https://github.com/zouyaoji/vue-cesium) 🌟 | React → [resium](https://github.com/reearth/resium) 🌟
 4. **Examples**: [Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) — 200+ demos 🌟
 
@@ -117,7 +117,7 @@ New to Cesium? Start here:
 
 *   [3D Tiles for Godot](https://godotengine.org/asset-library/asset/2807) - Official plugin bringing 3D Tiles support to Godot Engine (2025 release by Battle Road).
 *   [cesium-unreal](https://github.com/CesiumGS/cesium-unreal) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-unreal?style=flat&logo=github) 🌟 - Bringing the 3D geospatial ecosystem to Unreal Engine.
-*   [cesium-unity](https://github.com/CesiumGS/cesium-unity) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-unity?style=flat&logo=github) 🌟 - High-accuracy 3D geospatial content for Unity.
+*   [cesium-unity](https://github.com/CesiumGS/cesium-unity) ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-unity?style=flat&logo=github) 🌟 - High-accuracy 3D geospatial content for Unity. Web deployment supported since v1.20.0.
 
 ## Data Processing
 
@@ -220,10 +220,10 @@ For build and bundle optimization, see [Cesium documentation](https://cesium.com
 *Technologies and directions shaping the Cesium ecosystem.*
 
 *   **AI & MCP** — [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) for MCP servers and agent skills; community [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) for natural language 3D globe control.
-*   **3D Gaussian Splatting** — Experimental support in CesiumJS via [SPZ format](https://github.com/CesiumGS/spz) and [spz-loader](https://github.com/CesiumGS/spz-loader); enables photorealistic 3D scene rendering from captured data.
+*   **3D Gaussian Splatting** — Maturing experimental support in CesiumJS via [SPZ format](https://github.com/CesiumGS/spz) and [spz-loader](https://github.com/CesiumGS/spz-loader); enables photorealistic 3D scene rendering from captured data. v1.140 brings significant loading and rendering performance improvements, plus fixes for large-scale dataset crashes.
 *   **3D Tiles Next** — Evolution of the streaming specification; experimental support in [Cesium](https://github.com/CesiumGS/cesium). Follow [Cesium Blog](https://cesium.com/blog/) for announcements.
 *   **Cesium ion** — Cloud platform for 3D geospatial; streaming, tiling, photogrammetry, and hosting. The default for production deployments.
-*   **Game Engines** — [Unity](https://github.com/CesiumGS/cesium-unity), [Unreal](https://github.com/CesiumGS/cesium-unreal), [Godot](https://godotengine.org/asset-library/asset/2807) bring Cesium and 3D Tiles to real-time engines.
+*   **Game Engines** — [Unity](https://github.com/CesiumGS/cesium-unity) (web deployable), [Unreal](https://github.com/CesiumGS/cesium-unreal), [Godot](https://godotengine.org/asset-library/asset/2807) bring Cesium and 3D Tiles to real-time engines.
 *   **Omniverse & WebXR** — [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) for NVIDIA Omniverse; [cesium-webxr](https://github.com/pupitetris/cesium-webxr) for VR/AR in the browser.
 
 ## Tools
@@ -290,7 +290,7 @@ If you see a package or project here that is no longer maintained or is not a go
 
 ## Statistics
 
-> Last updated: March 2026  
+> Last updated: April 2026  
 > Active resources: 45+  
 > Archived (legacy): 14  
 > Categories: 14
@@ -300,4 +300,4 @@ If you see a package or project here that is no longer maintained or is not a go
 - 📚 Great for learning
 - See [Archived / Legacy](#archived--legacy) for deprecated resources
 
-*Curated for CesiumJS 1.x (currently 1.139). Only actively maintained resources in the main list. See [Inclusion Criteria](docs/INCLUSION_CRITERIA.md).* 
+*Curated for CesiumJS 1.x (currently 1.140). Only actively maintained resources in the main list. See [Inclusion Criteria](docs/INCLUSION_CRITERIA.md).* 
