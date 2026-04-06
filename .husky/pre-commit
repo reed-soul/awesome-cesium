@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+# Only lint README.md when it's staged
+if git diff --cached --name-only | grep -q '^README\.md$'; then
+  echo "🔍 Running awesome-lint on README.md..."
+  npx awesome-lint 2>&1
+  if [ $? -ne 0 ]; then
+    echo ""
+    echo "❌ awesome-lint failed. Fix the errors above before committing."
+    echo "   Run: npx awesome-lint"
+    exit 1
+  fi
+fi
