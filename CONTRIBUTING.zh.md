@@ -2,6 +2,8 @@
 
 感谢您对Awesome Cesium项目的关注！您的贡献让这个资源列表更加丰富和有用。
 
+可选维护者元数据（分类、翻译提示等）见 [docs/awesome-config.yml](docs/awesome-config.yml)；CI 不会读取该文件。
+
 **🌐 Language/语言:** [English](CONTRIBUTING.md) | [简体中文](CONTRIBUTING.zh.md)
 
 ## 🚀 快速开始

@@ -2,6 +2,8 @@
 
 We love contributions from the community! Thank you for your interest in making `awesome-cesium` even better.
 
+Optional maintainer metadata (categories, translation hints) lives in [docs/awesome-config.yml](docs/awesome-config.yml); CI does not read this file.
+
 **🌐 Language/语言:** [English](CONTRIBUTING.md) | [简体中文](CONTRIBUTING.zh.md)
 
 ## 🚀 Quick Start

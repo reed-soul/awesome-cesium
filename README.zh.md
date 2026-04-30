@@ -1,56 +1,21 @@
-# Awesome Cesium
+# Awesome Cesium [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/reed-soul/awesome-cesium.svg?style=social&label=Star)](https://github.com/reed-soul/awesome-cesium)
-[![GitHub forks](https://img.shields.io/github/forks/reed-soul/awesome-cesium.svg?style=social&label=Fork)](https://github.com/reed-soul/awesome-cesium)
-[![GitHub watchers](https://img.shields.io/github/watchers/reed-soul/awesome-cesium.svg?style=social&label=Watch)](https://github.com/reed-soul/awesome-cesium)
+> CesiumJS 是一款开源 JavaScript 库，用于在浏览器中构建三维地球与地图，支持地理空间数据流式传输，并兼顾性能、精度与视觉质量。
 
-> 精选的 [Cesium](https://cesium.com/) 相关库、资源和其他优秀内容的清单。
-
-[CesiumJS](https://cesium.com/cesiumjs/) 是一个开源的 JavaScript 库，用于在 Web 浏览器中创建世界级的 3D 地球和地图，具有最佳性能、精度、视觉质量和易用性。
-
-**🌐 Language/语言:** [English](README.md) | [简体中文](README.zh.md)
-
-## 🚀 快速开始
-
-初次使用 Cesium？从这里开始：
-
-1. **[官方文档](https://cesium.com/learn/)** — 教程与 API 参考
-2. **[Sandcastle](https://sandcastle.cesium.com/)** — 交互式代码示例（支持 [AI 语义搜索](https://cesium.com/blog/2026/03/19/ai-driven-semantic-search-sandcastle/)）
-3. **框架**：Vue → [vue-cesium](https://github.com/zouyaoji/vue-cesium) 🌟 | React → [resium](https://github.com/reearth/resium) 🌟
-4. **示例**：[Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) — 200+ 示例 🌟
-
-*新项目推荐：Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) 或 [vue-cesium](https://github.com/zouyaoji/vue-cesium) | React → [resium](https://github.com/reearth/resium)*
+本列表整理与 Cesium 生态相关的库、工具、框架与引擎集成及学习资源。
 
 ## 目录
 
+- [快速开始](#快速开始)
 - [官方资源](#官方资源)
 - [社区](#社区)
 - [学习资源](#学习资源)
-  - [教程](#教程)
-  - [博客](#博客)
-  - [视频](#视频)
-  - [书籍](#书籍)
 - [框架集成](#框架集成)
-  - [Angular](#angular)
-  - [Vue](#vue)
-  - [React](#react)
 - [游戏引擎集成](#游戏引擎集成)
 - [数据处理](#数据处理)
-  - [地形构建](#地形构建)
-  - [3D模型转换](#3d模型转换)
 - [库和插件](#库和插件)
-  - [用户界面](#用户界面)
-  - [数据管理](#数据管理)
-  - [数据可视化](#数据可视化)
-  - [数据提供者](#数据提供者)
-  - [材质与着色器效果](#材质与着色器效果)
-  - [GPS与跟踪](#gps与跟踪)
-  - [输入与交互](#输入与交互)
 - [性能与优化](#性能与优化)
 - [AI 集成](#ai-集成)
-  - [MCP 服务器](#mcp-服务器)
-  - [Agent 技能与工具](#agent-技能与工具)
 - [SDK与开发框架](#sdk与开发框架)
 - [开源项目](#开源项目)
 - [应用案例](#应用案例)
@@ -61,8 +26,20 @@
 - [未来与前沿](#未来与前沿)
 - [已归档/历史](#已归档历史)
 - [贡献](#贡献)
+- [统计信息](#统计信息)
 
 ---
+
+## 快速开始
+
+初次使用 Cesium？从这里开始：
+
+1. **[官方文档](https://cesium.com/learn/)** — 教程与 API 参考
+2. **[Sandcastle](https://sandcastle.cesium.com/)** — 交互式代码示例（支持 [AI 语义搜索](https://cesium.com/blog/2026/03/19/ai-driven-semantic-search-sandcastle/)）
+3. **框架**：Vue → [vue-cesium](https://github.com/zouyaoji/vue-cesium) 🌟 | React → [resium](https://github.com/reearth/resium) 🌟
+4. **示例**：[Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) — 200+ 示例 🌟
+
+- 新项目推荐：Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) 或 [vue-cesium](https://github.com/zouyaoji/vue-cesium) | React → [resium](https://github.com/reearth/resium)。
 
 ## 官方资源
 
@@ -173,7 +150,7 @@
 
 ## AI 集成
 
-*Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agent 技能和 AI 辅助地理空间工作流。*
+Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agent 技能和 AI 辅助地理空间工作流。
 
 ### MCP 服务器
 
@@ -242,7 +219,7 @@
 
 ## 已归档/历史
 
-*以下资源 24 个月以上未维护，仅供参考，使用需谨慎。*
+> 以下资源 24 个月以上未维护，仅供参考，使用需谨慎。
 
 ### 地形与数据处理
 *   [cesium-terrain-builder](https://github.com/geo-data/cesium-terrain-builder) (2021) - C++ 地形瓦片库
@@ -266,17 +243,19 @@
 *   [Gesture-Controlled-3D-World](https://github.com/ps428/Gesture-Controlled-3D-World) (2021)
 
 ### 已移除（不再列出）
-*angular-cesium* (2019)、*cesium-vue* (2018)、*d3cesium* (2015)、*cesium-vr* (2015) — 参见 git 历史。
+
+- 本列表已移除：*angular-cesium* (2019)、*cesium-vue* (2018)、*d3cesium* (2015)、*cesium-vr* (2015)。详见 Git 历史。
 
 ## 贡献
 
 欢迎您的贡献！请先查看[贡献指南](CONTRIBUTING.md)。
 
 **如何贡献：**
-- 🌟 如果您觉得有用，请为此仓库点星
-- 🐛 报告问题或损坏的链接
-- 💡 建议新资源或分类
-- 🔧 提交改进的Pull Request
+
+- 若觉得有用，欢迎为本仓库点星。
+- 报告问题或失效链接。
+- 建议新资源或分类。
+- 提交改进的 Pull Request。
 
 **添加新资源的指南：**
 - 确保资源与Cesium直接相关
@@ -295,9 +274,10 @@
 > 已归档：14  
 > 分类数：14  
 
-**图例说明：**
-- 🌟 **推荐** — 活跃维护、广泛使用、面向未来
-- 📚 适合学习
-- 已弃用资源见[已归档/历史](#已归档历史)
+**图例说明：** **推荐** 表示活跃维护、广泛使用、面向未来（条目中可能以星标标出）；适合学习的条目可作为入门参考；已弃用资源见[已归档/历史](#已归档历史)。
 
-*主列表仅含活跃维护资源，基于 CesiumJS 1.x（当前 1.140）。详见[收录标准](docs/INCLUSION_CRITERIA.zh.md）。* 
+主列表仅含活跃维护资源，基于 CesiumJS 1.x（当前 1.140）。详见[收录标准](docs/INCLUSION_CRITERIA.zh.md)。
+
+---
+
+**Language / 语言：** [English](README.md) | [简体中文](README.zh.md) 

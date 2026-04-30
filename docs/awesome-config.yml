@@ -141,4 +141,4 @@ social:
 contributing:
   guidelines_file: "CONTRIBUTING.md"
   template_file: ".github/PULL_REQUEST_TEMPLATE.md"
-  issue_template: ".github/ISSUE_TEMPLATE/" 
+  issue_template: ".github/ISSUE_TEMPLATE/"

@@ -1,45 +1,21 @@
-# Awesome Cesium [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Cesium [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![GitHub stars](https://img.shields.io/github/stars/reed-soul/awesome-cesium.svg?style=social&label=Star)](https://github.com/reed-soul/awesome-cesium)
-![GitHub forks](https://img.shields.io/github/forks/reed-soul/awesome-cesium.svg?style=social&label=Fork)
-![GitHub watchers](https://img.shields.io/github/watchers/reed-soul/awesome-cesium.svg?style=social&label=Watch)
+> Open-source JavaScript library for world-class 3D globes and maps with high-performance geospatial streaming, precision, and visual quality.
 
-> A curated list of awesome Cesium libraries, resources and other shiny things.
-
-CesiumJS is an open-source JavaScript library for creating world-class 3D globes and maps with the best possible performance, precision, visual quality, and ease of use.
-
-**🌐 Language/语言:** [English](README.md) | [简体中文](README.zh.md)
+This list curates libraries, tools, framework integrations, game engines, and resources for the CesiumJS ecosystem.
 
 ## Contents
 
-- [🚀 Quick Start](#-quick-start)
+- [Quick Start](#quick-start)
 - [Official Resources](#official-resources)
 - [Community](#community)
 - [Learning Resources](#learning-resources)
-  - [Tutorials](#tutorials)
-  - [Blogs](#blogs)
-  - [Videos](#videos)
-  - [Books](#books)
 - [Framework Integration](#framework-integration)
-  - [Angular](#angular)
-  - [Vue](#vue)
-  - [React](#react)
 - [Game Engine Integration](#game-engine-integration)
 - [Data Processing](#data-processing)
-  - [Terrain Building](#terrain-building)
-  - [3D Model Converting](#3d-model-converting)
 - [Libraries & Plugins](#libraries--plugins)
-  - [UI](#ui)
-  - [Data Management](#data-management)
-  - [Data Visualization](#data-visualization)
-  - [Data Providers](#data-providers)
-  - [Material & Shader Effects](#material--shader-effects)
-  - [GPS & Tracking](#gps--tracking)
-  - [Input & Interaction](#input--interaction)
 - [Performance & Optimization](#performance--optimization)
 - [AI Integration](#ai-integration)
-  - [MCP Servers](#mcp-servers)
-  - [Agent Skills & Tools](#agent-skills--tools)
 - [SDK & Development Frameworks](#sdk--development-frameworks)
 - [Open Source Projects](#open-source-projects)
 - [Applications](#applications)
@@ -52,7 +28,7 @@ CesiumJS is an open-source JavaScript library for creating world-class 3D globes
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 New to Cesium? Start here:
 
@@ -64,7 +40,7 @@ New to Cesium? Start here:
 
 **Examples**: [Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) — 200+ demos 🌟.
 
-*Recommended stack for new projects: Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) or vue-cesium | React → resium*
+- Recommended stack for new projects: Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) or vue-cesium | React → resium.
 
 ## Official Resources
 
@@ -175,7 +151,7 @@ For build and bundle optimization, see Cesium documentation.
 
 ## AI Integration
 
-*The Cesium ecosystem is rapidly integrating with AI systems. This section covers MCP servers, agent skills, and AI-assisted geospatial workflows.*
+The Cesium ecosystem is rapidly integrating with AI systems. This section covers MCP servers, agent skills, and AI-assisted geospatial workflows.
 
 ### MCP Servers
 
@@ -249,7 +225,7 @@ Technologies and directions shaping the Cesium ecosystem.
 
 ## Archived / Legacy
 
-*Resources below are no longer actively maintained (24+ months inactive). Kept for reference; use with caution.*
+> Resources below are no longer actively maintained (24+ months inactive). Kept for reference; use with caution.
 
 ### Terrain & Data Processing
 
@@ -277,17 +253,18 @@ Technologies and directions shaping the Cesium ecosystem.
 
 ### Deprecated (Removed)
 
-*angular-cesium* (2019), *cesium-vue* (2018), *d3cesium* (2015), *cesium-vr* (2015) — no longer listed; see Git history.
+- Removed from this list: *angular-cesium* (2019), *cesium-vue* (2018), *d3cesium* (2015), *cesium-vr* (2015). See Git history.
 
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
 
 **How to contribute:**
-- 🌟 Star this repository if you find it useful.
-- 🐛 Report issues or broken links.
-- 💡 Suggest new resources or categories.
-- 🔧 Submit pull requests with improvements.
+
+- Star this repository if you find it useful.
+- Report issues or broken links.
+- Suggest new resources or categories.
+- Submit pull requests with improvements.
 
 **Guidelines for adding new resources:**
 - Ensure the resource is directly related to Cesium.
@@ -304,9 +281,10 @@ If you see a package or project here that is no longer maintained or is not a go
 > Archived (legacy): 14
 > Categories: 14
 
-**Legend:**
-- 🌟 **Recommended** — Actively maintained, widely used, future-oriented.
-- 📚 Great for learning.
-- See Archived / Legacy section for deprecated resources.
+**Legend:** **Recommended** means actively maintained, widely used, and future-oriented (some entries use a star marker). Entries marked for learning are good starting points. Deprecated resources are listed under Archived / Legacy.
 
-*Curated for CesiumJS 1.x (currently 1.140). Only actively maintained resources in the main list. See [Inclusion Criteria](docs/INCLUSION_CRITERIA.md).*
+Curated for CesiumJS 1.x (currently 1.140). Only actively maintained resources in the main list. See [Inclusion Criteria](docs/INCLUSION_CRITERIA.md).
+
+---
+
+**Language:** [English](README.md) | [简体中文](README.zh.md)
