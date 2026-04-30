@@ -8,7 +8,7 @@ on:
   push:
     paths:
       - 'README.md'
-      - 'README.zh.md'
+      - 'readme-zh.md'
       - 'CONTRIBUTING.md'
       - 'CONTRIBUTING.zh.md'
 
@@ -26,12 +26,12 @@ jobs:
         run: |
           # Get last commit times for all translation files
           README_EN=$(git log -1 --format="%ct" -- README.md)
-          README_ZH=$(git log -1 --format="%ct" -- README.zh.md)
+          README_ZH=$(git log -1 --format="%ct" -- readme-zh.md)
           CONTRIB_EN=$(git log -1 --format="%ct" -- CONTRIBUTING.md)
           CONTRIB_ZH=$(git log -1 --format="%ct" -- CONTRIBUTING.zh.md)
           
           echo "README.md last modified: $(date -d @$README_EN)"
-          echo "README.zh.md last modified: $(date -d @$README_ZH)"
+          echo "readme-zh.md last modified: $(date -d @$README_ZH)"
           echo "CONTRIBUTING.md last modified: $(date -d @$CONTRIB_EN)"
           echo "CONTRIBUTING.zh.md last modified: $(date -d @$CONTRIB_ZH)"
           
@@ -39,7 +39,7 @@ jobs:
           SYNC_NEEDED=false
           
           if [ $README_EN -gt $README_ZH ]; then
-            echo "⚠️ README.md is newer than README.zh.md"
+            echo "⚠️ README.md is newer than readme-zh.md"
             SYNC_NEEDED=true
           fi
           
@@ -54,8 +54,8 @@ jobs:
         id: count-resources
         run: |
           # Count resources in both README files
-          EN_COUNT=$(grep -c "^\*   \[" README.md || echo "0")
-          ZH_COUNT=$(grep -c "^\*   \[" README.zh.md || echo "0")
+          EN_COUNT=$(grep -cE '^- \[[^]]+\]\(https?://' README.md || echo "0")
+          ZH_COUNT=$(grep -cE '^- \[[^]]+\]\(https?://' readme-zh.md || echo "0")
           
           echo "English README resources: $EN_COUNT"
           echo "Chinese README resources: $ZH_COUNT"
@@ -111,18 +111,18 @@ jobs:
             4. **Test Links**: Verify that all links work in both versions
             
             ### Files to Check:
-            - \`README.md\` vs \`README.zh.md\`
+            - \`README.md\` vs \`readme-zh.md\`
             - \`CONTRIBUTING.md\` vs \`CONTRIBUTING.zh.md\`
             
             ### Helpful Commands:
             \`\`\`bash
             # Compare file modification times
             git log -1 --format="%ad" --date=relative -- README.md
-            git log -1 --format="%ad" --date=relative -- README.zh.md
+            git log -1 --format="%ad" --date=relative -- readme-zh.md
             
             # Count resources in each file
-            grep -c "^\\*   \\[" README.md
-            grep -c "^\\*   \\[" README.zh.md
+            grep -cE '^- \[[^]]+\]\(https?://' README.md
+            grep -cE '^- \[[^]]+\]\(https?://' readme-zh.md
             \`\`\`
             
             **Priority**: Medium
@@ -180,19 +180,19 @@ jobs:
           echo "|------|---------------|--------|" >> translation-report.md
           
           README_EN_DATE=$(git log -1 --format="%ad" --date=short -- README.md)
-          README_ZH_DATE=$(git log -1 --format="%ad" --date=short -- README.zh.md)
+          README_ZH_DATE=$(git log -1 --format="%ad" --date=short -- readme-zh.md)
           CONTRIB_EN_DATE=$(git log -1 --format="%ad" --date=short -- CONTRIBUTING.md)
           CONTRIB_ZH_DATE=$(git log -1 --format="%ad" --date=short -- CONTRIBUTING.zh.md)
           
           echo "| README.md | $README_EN_DATE | 🇺🇸 English (primary) |" >> translation-report.md
-          echo "| README.zh.md | $README_ZH_DATE | 🇨🇳 Chinese |" >> translation-report.md
+          echo "| readme-zh.md | $README_ZH_DATE | 🇨🇳 Chinese |" >> translation-report.md
           echo "| CONTRIBUTING.md | $CONTRIB_EN_DATE | 🇺🇸 English (primary) |" >> translation-report.md
           echo "| CONTRIBUTING.zh.md | $CONTRIB_ZH_DATE | 🇨🇳 Chinese |" >> translation-report.md
           
           echo "" >> translation-report.md
           echo "## Resource Counts" >> translation-report.md
-          EN_COUNT=$(grep -c "^\*   \[" README.md || echo "0")
-          ZH_COUNT=$(grep -c "^\*   \[" README.zh.md || echo "0")
+          EN_COUNT=$(grep -cE '^- \[[^]]+\]\(https?://' README.md || echo "0")
+          ZH_COUNT=$(grep -cE '^- \[[^]]+\]\(https?://' readme-zh.md || echo "0")
           
           echo "- English README: $EN_COUNT resources" >> translation-report.md
           echo "- Chinese README: $ZH_COUNT resources" >> translation-report.md

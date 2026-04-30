@@ -37,7 +37,7 @@ body:
       label: Affected Files / 受影响的文件
       description: Which files need translation updates?
       options:
-        - label: README.md ↔️ README.zh.md
+        - label: README.md ↔️ readme-zh.md
         - label: CONTRIBUTING.md ↔️ CONTRIBUTING.zh.md
         - label: Issue templates / Issue模板
         - label: Other documentation / 其他文档

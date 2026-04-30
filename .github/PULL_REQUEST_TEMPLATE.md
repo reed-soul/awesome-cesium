@@ -43,7 +43,7 @@
 
 ### Multi-language Support / 多语言支持
 - [ ] Updated English version (README.md)
-- [ ] Updated Chinese version (README.zh.md) / 已更新中文版本
+- [ ] Updated Chinese version (readme-zh.md) / 已更新中文版本
 - [ ] Consistent formatting across all language versions / 所有语言版本格式一致
 - [ ] Technical terms translated appropriately / 技术术语翻译恰当
 

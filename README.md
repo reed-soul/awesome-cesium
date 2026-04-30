@@ -287,4 +287,4 @@ Curated for CesiumJS 1.x (currently 1.140). Only actively maintained resources i
 
 ---
 
-**Language:** [English](README.md) | [简体中文](README.zh.md)
+**Language:** [English](README.md) | [简体中文](readme-zh.md)

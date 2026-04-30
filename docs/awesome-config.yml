@@ -113,7 +113,7 @@ languages:
       readme: "README.md"
       contributing: "CONTRIBUTING.md"
     zh:
-      readme: "README.zh.md" 
+      readme: "readme-zh.md" 
       contributing: "CONTRIBUTING.zh.md"
       
   sync:

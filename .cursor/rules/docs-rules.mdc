@@ -143,7 +143,7 @@ This is a curated list of awesome Cesium libraries, resources, and tools. The re
 
 ### Supporting Files
 - Update CONTRIBUTING.md when changing contribution guidelines
-- Maintain consistency between README.md and README.zh.md
+- Maintain consistency between README.md and readme-zh.md
 - Keep CODE_OF_CONDUCT.md and LICENSE files unchanged unless specifically updating
 
 ### Automation Support

@@ -55,6 +55,7 @@ jobs:
     - name: Check links in README
       run: |
         markdown-link-check README.md --config .markdown-link-check.json
+        markdown-link-check readme-zh.md --config .markdown-link-check.json
         
     - name: Check links in CONTRIBUTING
       run: |

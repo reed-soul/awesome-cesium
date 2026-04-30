@@ -187,7 +187,7 @@ npm install -g markdown-link-check
 
 # 本地检查链接
 markdown-link-check README.md
-markdown-link-check README.zh.md
+markdown-link-check readme-zh.md
 
 # 检查格式
 # （目视检查或使用markdown linter）
