@@ -40,14 +40,14 @@ New to Cesium? Start here:
 
 **Examples**: [Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) — 200+ demos 🌟.
 
-- Recommended stack for new projects: Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) or vue-cesium | React → resium.
+- Recommended stack for new projects: Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) or [vue-cesium](https://github.com/zouyaoji/vue-cesium) | React → [resium](https://github.com/reearth/resium) | Vite → [cesium-vite-example](https://github.com/CesiumGS/cesium-vite-example) + [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium).
 
 ## Official Resources
 
 - [Official Website](https://cesium.com/) - The official Cesium website with documentation and resources.
 - [CesiumJS Library](https://cesium.com/cesiumjs/) - The main JavaScript library for 3D globes and maps.
-- Documentation - Comprehensive documentation, tutorials, and API reference.
-- Official Examples - Interactive code examples and demos.
+- [Documentation](https://cesium.com/learn/) - Comprehensive documentation, tutorials, and API reference.
+- [Sandcastle](https://sandcastle.cesium.com/) - Interactive code examples and demos.
 - [GitHub Repository](https://github.com/CesiumGS/cesium) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium?style=flat&logo=github) The official open-source CesiumJS repository.
 - [Cesium Native](https://github.com/CesiumGS/cesium-native) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-native?style=flat&logo=github) Foundational C++ library for 3D Tiles, terrain, and geospatial processing. Powers Cesium for Unreal, Unity, and Omniverse.
 - [3D Tiles Specification](https://github.com/CesiumGS/3d-tiles) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles?style=flat&logo=github) Open specification for streaming 3D geospatial content.
@@ -62,7 +62,7 @@ New to Cesium? Start here:
 
 ### Tutorials
 
-- Official CesiumJS Tutorials - Step-by-step tutorials and learning resources for beginners.
+- [Official CesiumJS Tutorials](https://cesium.com/learn/) - Step-by-step tutorials and learning resources for beginners.
 
 ### Blogs
 
@@ -84,12 +84,12 @@ New to Cesium? Start here:
 
 ### Vue
 
-- vue-cesium - ![GitHub stars](https://img.shields.io/github/stars/zouyaoji/vue-cesium?style=flat&logo=github) Vue 3.x components for CesiumJS with comprehensive third-party library support.
-- cesium-vue3-vite - ![GitHub stars](https://img.shields.io/github/stars/tingyuxuan2302/cesium-vue3-vite?style=flat&logo=github) Vue 3 + Vite + Cesium template with common 3D visualization scenes.
+- [vue-cesium](https://github.com/zouyaoji/vue-cesium) - ![GitHub stars](https://img.shields.io/github/stars/zouyaoji/vue-cesium?style=flat&logo=github) Vue 3.x components for CesiumJS with comprehensive third-party library support.
+- [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) - ![GitHub stars](https://img.shields.io/github/stars/tingyuxuan2302/cesium-vue3-vite?style=flat&logo=github) Vue 3 + Vite + Cesium template with common 3D visualization scenes.
 
 ### React
 
-- resium - ![GitHub stars](https://img.shields.io/github/stars/reearth/resium?style=flat&logo=github) React components for Cesium with TypeScript support and declarative API.
+- [resium](https://github.com/reearth/resium) - ![GitHub stars](https://img.shields.io/github/stars/reearth/resium?style=flat&logo=github) React components for Cesium with TypeScript support and declarative API.
 
 ## Game Engine Integration
 
@@ -113,24 +113,30 @@ New to Cesium? Start here:
 - [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) - ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/glTF-Blender-IO?style=flat&logo=github) Official Blender add-on for glTF 2.0 import/export. Essential for creating and editing models destined for 3D Tiles.
 - [spz](https://github.com/CesiumGS/spz) - Open-source SPZ file format for 3D Gaussian Splats. ~10x smaller than PLY with virtually no perceptible loss. Offered by Niantic Labs.
 
+### AEC & BIM Export
+
+- [cesium-ion-revit-add-in](https://github.com/CesiumGS/cesium-ion-revit-add-in) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-ion-revit-add-in?style=flat&logo=github) Official Autodesk Revit add-in to export designs to Cesium ion as 3D Tiles for CesiumJS and game engines.
+
 ## Libraries & Plugins
 
 ### UI
 
-*(Contributions welcome for actively maintained UI plugins.)*
+- [cesium-navigation](https://github.com/brickhouse-tech/cesium-navigation) - ![GitHub stars](https://img.shields.io/github/stars/brickhouse-tech/cesium-navigation?style=flat&logo=github) TypeScript compass, zoom navigator, and distance scale widgets for CesiumJS (v6, zero legacy dependencies).
 
 ### Data Management
 
-See Cesium documentation for build and bundling guidance.
+See [Cesium documentation](https://cesium.com/learn/cesiumjs/) for build and bundling guidance.
 
 ### Data Visualization
 
 - [ol-cesium](https://github.com/openlayers/ol-cesium) - ![GitHub stars](https://img.shields.io/github/stars/openlayers/ol-cesium?style=flat&logo=github) OpenLayers - Cesium integration for 2D/3D map switching.
 - [3DTilesRendererJS](https://github.com/NASA-AMMOS/3DTilesRendererJS) - ![GitHub stars](https://img.shields.io/github/stars/NASA-AMMOS/3DTilesRendererJS?style=flat&logo=github) 3D Tiles renderer for Three.js, alternative to Cesium for 3D Tiles visualization.
-- [cesium-webxr](https://github.com/pupitetris/cesium-webxr) - ![GitHub stars](https://img.shields.io/github/stars/pupitetris/cesium-webxr?style=flat&logo=github) POC: Modern WebXR support for immersive VR/AR experiences.
+- [cesium-vectortile-gl](https://github.com/mesh-3d/cesium-vectortile-gl) - ![GitHub stars](https://img.shields.io/github/stars/mesh-3d/cesium-vectortile-gl?style=flat&logo=github) Native Primitive vector tile renderer for MVT/GeoJSON with MapLibre style support, batching, and GPU culling.
+- [cesium-wind-layer](https://github.com/hongfaqiu/cesium-wind-layer) - ![GitHub stars](https://img.shields.io/github/stars/hongfaqiu/cesium-wind-layer?style=flat&logo=github) GPU-accelerated wind field particle visualization with terrain occlusion support.
 
 ### Data Providers
 
+- [zarr-cesium](https://github.com/noc-oi/zarr-cesium) - ![GitHub stars](https://img.shields.io/github/stars/noc-oi/zarr-cesium?style=flat&logo=github) CesiumJS providers for streaming Zarr environmental and geospatial data from cloud object stores.
 - [Cesium-GeoserverTerrainProvider](https://github.com/kaktus40/Cesium-GeoserverTerrainProvider) - GeoServer integration for various elevation data formats.
 
 ### Material & Shader Effects
@@ -147,7 +153,8 @@ See Cesium documentation for build and bundling guidance.
 
 ## Performance & Optimization
 
-For build and bundle optimization, see Cesium documentation.
+- [cesium-gpu-points-layer](https://github.com/vadimrostok/cesium-gpu-points-layer) - ![GitHub stars](https://img.shields.io/github/stars/vadimrostok/cesium-gpu-points-layer?style=flat&logo=github) GPU-accelerated primitive for rendering and animating millions of dynamic markers with billboard-style performance.
+- For build and bundle optimization, see [Cesium documentation](https://cesium.com/learn/cesiumjs/).
 
 ## AI Integration
 
@@ -155,12 +162,12 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 
 ### MCP Servers
 
-- [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-ai-integrations?style=flat&logo=github) Official Cesium collection of MCP servers, apps, and agent skills for connecting AI systems with CesiumJS.
-- [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) - ![GitHub stars](https://img.shields.io/github/stars/gaopengbin/cesium-mcp?style=flat&logo=github) Community MCP bridge providing 58 tools for camera control, entity management, 3D Tiles, terrain, imagery layers, and spatial analysis. Supports stdio and WebSocket modes.
+- [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-ai-integrations?style=flat&logo=github) Official Cesium collection of MCP servers (`mcp/`), agent skills (`skills/`), and reference apps for connecting AI systems with CesiumJS.
+- [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) - ![GitHub stars](https://img.shields.io/github/stars/gaopengbin/cesium-mcp?style=flat&logo=github) Community MCP ecosystem with 60+ tools via `cesium-mcp-bridge`, `cesium-mcp-runtime`, and `cesium-mcp-dev` for browser, IDE, and stdio/WebSocket agent control.
 
 ### Agent Skills & Tools
 
-- [cesium-vscode](https://github.com/CesiumGS/cesium-vscode) - Official Visual Studio Code extension for CesiumJS development.
+- [Cesium VS Code Extension](https://github.com/CesiumGS/cesium/pull/13059) - 🧪 **[Experimental]** Official VS Code extension for CesiumJS development (draft, in development).
 - [Context7 Cesium Server](https://context7.com/) - MCP server providing AI tools with real-time access to latest CesiumJS documentation and API references to reduce hallucinations.
 
 ## SDK & Development Frameworks
@@ -170,10 +177,11 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 
 ## Open Source Projects
 
-- Cesium-Examples - ![GitHub stars](https://img.shields.io/github/stars/jiawanlong/Cesium-Examples?style=flat&logo=github) Comprehensive collection of 200+ CesiumJS examples including analysis, visualization, and data loading.
+- [Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) - ![GitHub stars](https://img.shields.io/github/stars/jiawanlong/Cesium-Examples?style=flat&logo=github) Comprehensive collection of 200+ CesiumJS examples including analysis, visualization, and data loading.
 
 ## Applications
 
+- [worldwideview](https://github.com/silvertakana/worldwideview) - ![GitHub stars](https://img.shields.io/github/stars/silvertakana/worldwideview?style=flat&logo=github) Modular real-time situational awareness platform with plugin architecture for live geospatial data on a CesiumJS globe.
 - [satellite-js](https://github.com/shashwatak/satellite-js) - ![GitHub stars](https://img.shields.io/github/stars/shashwatak/satellite-js?style=flat&logo=github) Satellite orbit calculation library from TLE data, commonly used with Cesium for orbit visualization.
 - [satvis](https://github.com/Flowm/satvis) - ![GitHub stars](https://img.shields.io/github/stars/Flowm/satvis?style=flat&logo=github) Advanced satellite orbit visualization and pass prediction.
 - [3D-Wind-Field](https://github.com/RaymanNg/3D-Wind-Field) - ![GitHub stars](https://img.shields.io/github/stars/RaymanNg/3D-Wind-Field?style=flat&logo=github) 3D wind field visualization on Cesium globe.
@@ -183,24 +191,25 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 
 ## Showcases
 
-- Cesium Sandcastle - Official interactive showcase of Cesium features and capabilities.
+- [Cesium Sandcastle](https://sandcastle.cesium.com/) - Official interactive showcase of Cesium features and capabilities.
 - [Cesium ion](https://ion.cesium.com/) - Cloud platform for streaming 3D content, photogrammetry pipelines, terrain, and real-world datasets.
 
 ## Data Sources & Platform
 
-- Cesium Ion - Cloud platform for streaming, hosting, and processing 3D geospatial content; includes terrain, imagery, 3D Tiles, and photogrammetry.
+- [Cesium Ion](https://ion.cesium.com/) - Cloud platform for streaming, hosting, and processing 3D geospatial content; includes terrain, imagery, 3D Tiles, and photogrammetry.
 - [OpenStreetMap](https://www.openstreetmap.org/) - Collaborative mapping platform providing global map data.
 - [Natural Earth](https://www.naturalearthdata.com/) - Public domain map dataset for cartographers.
 - [PMTiles](https://github.com/protomaps/PMTiles) - ![GitHub stars](https://img.shields.io/github/stars/protomaps/PMTiles?style=flat&logo=github) Map tiles in a single file on static storage. Enables offline-capable, self-hosted tile serving compatible with Cesium.
 
 ## Tools
 
+- [3d-tiles-tools](https://github.com/CesiumGS/3d-tiles-tools) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-tools?style=flat&logo=github) Official CLI for converting, merging, upgrading, compressing, and analyzing 3D Tiles tilesets.
 - [3d-tiles-validator](https://github.com/CesiumGS/3d-tiles-validator) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-validator?style=flat&logo=github) Official validator for 3D Tiles tilesets.
-- [3d-tiles-samples](https://github.com/CesiumGS/3d-tiles-samples) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-samples?style=flat&logo=github) Sample tilesets for learning and testing 3D Tiles.
 - [spz-loader](https://github.com/CesiumGS/spz-loader) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/spz-loader?style=flat&logo=github) Official .spz 3D Gaussian Splatting format loader for CesiumJS.
-- cesium-vscode - Official VS Code extension for CesiumJS development.
 - [cesiumjs-workshop](https://github.com/CesiumGS/cesiumjs-workshop) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesiumjs-workshop?style=flat&logo=github) Deep dive workshop materials from the 2025 Cesium Developer Conference.
-- For CesiumJS build setup and bundling, see official documentation.
+- [cesium-vite-example](https://github.com/CesiumGS/cesium-vite-example) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-vite-example?style=flat&logo=github) Official minimal Vite setup for CesiumJS applications.
+- [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - ![GitHub stars](https://img.shields.io/github/stars/nshen/vite-plugin-cesium?style=flat&logo=github) Community Vite plugin for zero-config Cesium static asset handling and bundling.
+- For CesiumJS build setup and bundling, see [official documentation](https://cesium.com/learn/cesiumjs/).
 
 ## Ecosystem
 
@@ -221,7 +230,7 @@ Technologies and directions shaping the Cesium ecosystem.
 
 **Game Engines** — Unity (web deployable), Unreal, Godot bring Cesium and 3D Tiles to real-time engines.
 
-**Omniverse & WebXR** — cesium-omniverse for NVIDIA Omniverse; cesium-webxr for VR/AR in the browser.
+**Omniverse & WebXR** — cesium-omniverse for NVIDIA Omniverse; archived cesium-webxr for VR/AR experiments.
 
 ## Archived / Legacy
 
@@ -238,11 +247,16 @@ Technologies and directions shaping the Cesium ecosystem.
 
 - [cesium-plugins](https://github.com/syzdev/cesium-plugins) (2021) - Coordinate picking, flooding analysis, overlays.
 - [Cesium-Plugin](https://github.com/bingqixuan/Cesium-Plugin) (2021) - Measurement, context menus.
-- [CesiumVectorTile](https://github.com/MikesWei/CesiumVectorTile) (2021) - Vector tile provider.
+- [CesiumVectorTile](https://github.com/MikesWei/CesiumVectorTile) (2021) - Vector tile provider. See [cesium-vectortile-gl](https://github.com/mesh-3d/cesium-vectortile-gl) for a modern alternative.
 - [cesium-drawhelper](https://github.com/leforthomas/cesium-drawhelper) (2016) - Shape editor.
 - [CesiumExp-measure](https://github.com/gitgitczl/CesiumExp-measure) (2021) - Measurement plugin.
 - [CesiumMeshVisualizer](https://github.com/MikesWei/CesiumMeshVisualizer) (2021) - Three.js geometry in Cesium.
 - [CesiumRoadImageFlowMaterial](https://github.com/WaterSeeding/CesiumRoadImageFlowMaterial) (2022) - Road flow material.
+- [cesium-webxr](https://github.com/pupitetris/cesium-webxr) (2024) - POC for WebXR VR/AR experiences in Cesium.
+
+### Tools & Samples
+
+- [3d-tiles-samples](https://github.com/CesiumGS/3d-tiles-samples) (2024) - Sample tilesets for learning and testing 3D Tiles.
 
 ### Examples & Demos
 
@@ -276,9 +290,9 @@ If you see a package or project here that is no longer maintained or is not a go
 
 ---
 
-> Last updated: April 2026
-> Active resources: 45+
-> Archived (legacy): 14
+> Last updated: June 2026
+> Active resources: 55+
+> Archived (legacy): 16
 > Categories: 14
 
 **Legend:** **Recommended** means actively maintained, widely used, and future-oriented (some entries use a star marker). Entries marked for learning are good starting points. Deprecated resources are listed under Archived / Legacy.
