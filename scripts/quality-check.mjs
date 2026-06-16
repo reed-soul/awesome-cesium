@@ -9,6 +9,12 @@ import https from 'https';
 
 const README = 'README.md';
 const OUTDATED_MONTHS = 24;
+const ARCHIVED_SECTION = '## Archived / Legacy';
+
+function activeReadmeContent(content) {
+  const idx = content.indexOf(ARCHIVED_SECTION);
+  return idx >= 0 ? content.slice(0, idx) : content;
+}
 
 function extractGitHubRepos(content) {
   const regex = /https:\/\/github\.com\/([^\/]+)\/([^\/\)\s?#]+)/g;
@@ -66,10 +72,11 @@ function fetchRepo(owner, repo, token) {
 
 async function main() {
   const content = fs.readFileSync(README, 'utf8');
-  const repos = extractGitHubRepos(content);
+  const activeContent = activeReadmeContent(content);
+  const repos = extractGitHubRepos(activeContent);
   const token = process.env.GITHUB_TOKEN;
 
-  console.log(`Checking ${repos.length} repositories...\n`);
+  console.log(`Checking ${repos.length} active repositories (excluding Archived / Legacy)...\n`);
 
   const results = [];
   for (const { owner, repo } of repos) {
