@@ -40,7 +40,7 @@
 
 **示例**：[Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) — 200+ 演示 🌟。
 
-- 新项目推荐技术栈：Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) 或 [vue-cesium](https://github.com/zouyaoji/vue-cesium) | React → [resium](https://github.com/reearth/resium)。
+- 新项目推荐技术栈：Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) 或 [vue-cesium](https://github.com/zouyaoji/vue-cesium) | React → [resium](https://github.com/reearth/resium) | Vite → [cesium-vite-example](https://github.com/CesiumGS/cesium-vite-example) + [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium)。
 
 ## 官方资源
 
@@ -113,11 +113,15 @@
 - [glTF-Blender-IO](https://github.com/KhronosGroup/glTF-Blender-IO) - ![GitHub stars](https://img.shields.io/github/stars/KhronosGroup/glTF-Blender-IO?style=flat&logo=github) Blender 官方 glTF 2.0 导入/导出插件，3D Tiles 模型制作的必备工具。
 - [spz](https://github.com/CesiumGS/spz) - 开源 SPZ 3D 高斯泼溅文件格式，比 PLY 小约 10 倍，视觉质量几乎无损。由 Niantic Labs 提供。
 
+### AEC 与 BIM 导出
+
+- [cesium-ion-revit-add-in](https://github.com/CesiumGS/cesium-ion-revit-add-in) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-ion-revit-add-in?style=flat&logo=github) 官方 Autodesk Revit 插件，将设计导出至 Cesium ion 并发布为 3D Tiles，供 CesiumJS 与游戏引擎使用。
+
 ## 库和插件
 
 ### 用户界面
 
-> （欢迎贡献活跃维护的 UI 插件。）
+- [cesium-navigation](https://github.com/brickhouse-tech/cesium-navigation) - ![GitHub stars](https://img.shields.io/github/stars/brickhouse-tech/cesium-navigation?style=flat&logo=github) TypeScript 指南针、缩放导航与距离比例尺控件（v6，无遗留依赖）。
 
 ### 数据管理
 
@@ -127,6 +131,8 @@
 
 - [ol-cesium](https://github.com/openlayers/ol-cesium) - ![GitHub stars](https://img.shields.io/github/stars/openlayers/ol-cesium?style=flat&logo=github) OpenLayers 与 Cesium 集成，支持 2D/3D 地图切换。
 - [3DTilesRendererJS](https://github.com/NASA-AMMOS/3DTilesRendererJS) - ![GitHub stars](https://img.shields.io/github/stars/NASA-AMMOS/3DTilesRendererJS?style=flat&logo=github) Three.js 的 3D Tiles 渲染器。
+- [cesium-vectortile-gl](https://github.com/mesh-3d/cesium-vectortile-gl) - ![GitHub stars](https://img.shields.io/github/stars/mesh-3d/cesium-vectortile-gl?style=flat&logo=github) 原生 Primitive 矢量瓦片渲染器，支持 MVT/GeoJSON 与 MapLibre 样式、合批与 GPU 剔除。
+- [cesium-wind-layer](https://github.com/hongfaqiu/cesium-wind-layer) - ![GitHub stars](https://img.shields.io/github/stars/hongfaqiu/cesium-wind-layer?style=flat&logo=github) GPU 加速风场粒子可视化，支持地形遮挡。
 
 ### 数据提供者
 
@@ -156,8 +162,8 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 
 ### MCP 服务器
 
-- [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-ai-integrations?style=flat&logo=github) Cesium 官方的 MCP 服务器、应用和 Agent 技能集合，连接 AI 系统与 CesiumJS。
-- [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) - ![GitHub stars](https://img.shields.io/github/stars/gaopengbin/cesium-mcp?style=flat&logo=github) 社区 MCP 桥接，提供 58 个工具，支持相机控制、实体管理、3D Tiles、地形、影像图层和空间分析，支持 stdio 和 WebSocket 模式。
+- [cesium-ai-integrations](https://github.com/CesiumGS/cesium-ai-integrations) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-ai-integrations?style=flat&logo=github) Cesium 官方 MCP 服务器（`mcp/`）、Agent 技能（`skills/`）与参考应用集合，连接 AI 系统与 CesiumJS。
+- [cesium-mcp](https://github.com/gaopengbin/cesium-mcp) - ![GitHub stars](https://img.shields.io/github/stars/gaopengbin/cesium-mcp?style=flat&logo=github) 社区 MCP 生态，通过 `cesium-mcp-bridge`、`cesium-mcp-runtime`、`cesium-mcp-dev` 提供 60+ 工具，支持浏览器、IDE 与 stdio/WebSocket 代理控制。
 
 ### Agent 技能与工具
 
@@ -197,9 +203,12 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 
 ## 工具
 
+- [3d-tiles-tools](https://github.com/CesiumGS/3d-tiles-tools) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-tools?style=flat&logo=github) 官方 3D Tiles CLI，支持转换、合并、升级、压缩与分析瓦片集。
 - [3d-tiles-validator](https://github.com/CesiumGS/3d-tiles-validator) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-validator?style=flat&logo=github) 官方 3D Tiles 瓦片集校验工具。
 - [spz-loader](https://github.com/CesiumGS/spz-loader) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/spz-loader?style=flat&logo=github) 官方 .spz 3D 高斯泼溅格式加载器。
 - [cesiumjs-workshop](https://github.com/CesiumGS/cesiumjs-workshop) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesiumjs-workshop?style=flat&logo=github) 2025 Cesium 开发者大会深度研讨材料。
+- [cesium-vite-example](https://github.com/CesiumGS/cesium-vite-example) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-vite-example?style=flat&logo=github) 官方 CesiumJS + Vite 最小示例项目。
+- [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - ![GitHub stars](https://img.shields.io/github/stars/nshen/vite-plugin-cesium?style=flat&logo=github) 社区 Vite 插件，零配置处理 Cesium 静态资源与打包。
 - CesiumJS 构建和打包说明请参见 [官方文档](https://cesium.com/learn/cesiumjs/)。
 
 ## 生态系统
@@ -238,7 +247,7 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 
 - [cesium-plugins](https://github.com/syzdev/cesium-plugins) - （2021 归档）坐标拾取、洪水分析、覆盖层。
 - [Cesium-Plugin](https://github.com/bingqixuan/Cesium-Plugin) - （2021 归档）测量、上下文菜单。
-- [CesiumVectorTile](https://github.com/MikesWei/CesiumVectorTile) - （2021 归档）矢量瓦片提供者。
+- [CesiumVectorTile](https://github.com/MikesWei/CesiumVectorTile) - （2021 归档）矢量瓦片提供者。现代替代方案见 [cesium-vectortile-gl](https://github.com/mesh-3d/cesium-vectortile-gl)。
 - [cesium-drawhelper](https://github.com/leforthomas/cesium-drawhelper) - （2016 归档）形状编辑器。
 - [CesiumExp-measure](https://github.com/gitgitczl/CesiumExp-measure) - （2021 归档）测量插件。
 - [CesiumMeshVisualizer](https://github.com/MikesWei/CesiumMeshVisualizer) - （2021 归档）Cesium 中的 Three.js 几何体。
@@ -282,7 +291,7 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 ---
 
 > 最后更新：2026 年 6 月
-> 活跃资源：48+
+> 活跃资源：55+
 > 已归档：16
 > 分类数：14
 
