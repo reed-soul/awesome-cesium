@@ -32,15 +32,15 @@ This list curates libraries, tools, framework integrations, game engines, and re
 
 New to Cesium? Start here:
 
-**Official Documentation** — Tutorials and API reference: <https://cesium.com/learn/>
+**Official Documentation** — Tutorials and API reference. See the Official Resources section below.
 
-**Sandcastle** — Interactive code examples (now with [AI semantic search](https://cesium.com/blog/2026/03/19/ai-driven-semantic-search-sandcastle/)): <https://sandcastle.cesium.com/>
+**Sandcastle** — Interactive code examples (now with [AI semantic search](https://cesium.com/blog/2026/03/19/ai-driven-semantic-search-sandcastle/)). See the Showcases section below.
 
-**Framework**: Vue → [vue-cesium](https://github.com/zouyaoji/vue-cesium) 🌟 | React → [resium](https://github.com/reearth/resium) 🌟
+**Framework** — Vue → vue-cesium 🌟 | React → resium 🌟. See the Framework Integration section below.
 
-**Examples**: [Cesium-Examples](https://github.com/jiawanlong/Cesium-Examples) — 200+ demos 🌟.
+**Examples** — 200+ demos 🌟. See the Open Source Projects section below.
 
-- Recommended stack for new projects: Vue 3 + Vite → [cesium-vue3-vite](https://github.com/tingyuxuan2302/cesium-vue3-vite) or [vue-cesium](https://github.com/zouyaoji/vue-cesium) | React → [resium](https://github.com/reearth/resium) | Vite → [cesium-vite-example](https://github.com/CesiumGS/cesium-vite-example) + [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium).
+- Recommended stack for new projects: Vue 3 + Vite (cesium-vue3-vite or vue-cesium) | React (resium) | Vite (cesium-vite-example + vite-plugin-cesium). See the Framework Integration and Tools sections below.
 
 ## Official Resources
 
@@ -62,7 +62,7 @@ New to Cesium? Start here:
 
 ### Tutorials
 
-- [Official CesiumJS Tutorials](https://cesium.com/learn/) - Step-by-step tutorials and learning resources for beginners.
+- [Official CesiumJS Tutorials](https://cesium.com/learn/cesiumjs/tutorials/) - Step-by-step tutorials and learning resources for beginners.
 
 ### Blogs
 
@@ -125,7 +125,7 @@ New to Cesium? Start here:
 
 ### Data Management
 
-See [Cesium documentation](https://cesium.com/learn/cesiumjs/) for build and bundling guidance.
+See the Official Resources section for build and bundling guidance.
 
 ### Data Visualization
 
@@ -154,7 +154,7 @@ See [Cesium documentation](https://cesium.com/learn/cesiumjs/) for build and bun
 ## Performance & Optimization
 
 - [cesium-gpu-points-layer](https://github.com/vadimrostok/cesium-gpu-points-layer) - ![GitHub stars](https://img.shields.io/github/stars/vadimrostok/cesium-gpu-points-layer?style=flat&logo=github) GPU-accelerated primitive for rendering and animating millions of dynamic markers with billboard-style performance.
-- For build and bundle optimization, see [Cesium documentation](https://cesium.com/learn/cesiumjs/).
+- For build and bundle optimization, see the Official Resources section.
 
 ## AI Integration
 
@@ -167,7 +167,7 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 
 ### Agent Skills & Tools
 
-- [Cesium VS Code Extension](https://github.com/CesiumGS/cesium/pull/13059) - 🧪 **[Experimental]** Official VS Code extension for CesiumJS development (draft, in development).
+- [Cesium VS Code Extension](https://github.com/CesiumGS/cesium/pull/13059) - 🧪 **Experimental** Official VS Code extension for CesiumJS development (draft, in development).
 - [Context7 Cesium Server](https://context7.com/) - MCP server providing AI tools with real-time access to latest CesiumJS documentation and API references to reduce hallucinations.
 
 ## SDK & Development Frameworks
@@ -191,8 +191,8 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 
 ## Showcases
 
-- [Cesium Sandcastle](https://sandcastle.cesium.com/) - Official interactive showcase of Cesium features and capabilities.
-- [Cesium ion](https://ion.cesium.com/) - Cloud platform for streaming 3D content, photogrammetry pipelines, terrain, and real-world datasets.
+- Cesium Sandcastle — Official interactive showcase of Cesium features and capabilities.
+- Cesium ion — Cloud platform for streaming 3D content, photogrammetry pipelines, terrain, and real-world datasets.
 
 ## Data Sources & Platform
 
@@ -209,7 +209,7 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 - [cesiumjs-workshop](https://github.com/CesiumGS/cesiumjs-workshop) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesiumjs-workshop?style=flat&logo=github) Deep dive workshop materials from the 2025 Cesium Developer Conference.
 - [cesium-vite-example](https://github.com/CesiumGS/cesium-vite-example) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-vite-example?style=flat&logo=github) Official minimal Vite setup for CesiumJS applications.
 - [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - ![GitHub stars](https://img.shields.io/github/stars/nshen/vite-plugin-cesium?style=flat&logo=github) Community Vite plugin for zero-config Cesium static asset handling and bundling.
-- For CesiumJS build setup and bundling, see [official documentation](https://cesium.com/learn/cesiumjs/).
+- For CesiumJS build setup and bundling, see the Official Resources section.
 
 ## Ecosystem
 
