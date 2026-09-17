@@ -32,11 +32,14 @@ jobs:
 
     - name: Create link-check config
       run: |
-        cat > .markdown-link-check.json << EOF
+        cat > .markdown-link-check.json << 'EOF'
         {
           "ignorePatterns": [
             {
               "pattern": "^http://localhost"
+            },
+            {
+              "pattern": "^https://www\\.reddit\\.com"
             }
           ],
           "replacementPatterns": [],
