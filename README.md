@@ -56,7 +56,7 @@ New to Cesium? Start here:
 
 ### Tutorials
 
-- [Official CesiumJS Tutorials](https://cesium.com/learn/cesiumjs/tutorials/) - Step-by-step tutorials and learning resources for beginners.
+- [Official CesiumJS Tutorials](https://cesium.com/learn/cesiumjs-learn/) - Step-by-step tutorials and learning resources for beginners.
 - [Build a Flight Simulator with CesiumJS Using AI](https://cesium.com/learn/cesiumjs-learn/build-a-flight-simulator-with-cesiumjs-using-ai/) - 🆕 **New** Official guide to building a CesiumJS flight simulator with an AI coding agent, React, and TypeScript.
 
 ### Blogs

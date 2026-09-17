@@ -58,7 +58,7 @@
 
 ### 教程
 
-- [CesiumJS 官方教程](https://cesium.com/learn/cesiumjs/tutorials/) - 面向初学者的循序渐进教程和学习资源.
+- [CesiumJS 官方教程](https://cesium.com/learn/cesiumjs-learn/) - 面向初学者的循序渐进教程和学习资源.
 - [用 AI 构建 CesiumJS 飞行模拟器](https://cesium.com/learn/cesiumjs-learn/build-a-flight-simulator-with-cesiumjs-using-ai/) - 🆕 **New** 官方指南：使用 AI 编程助手、React 与 TypeScript 构建 CesiumJS 飞行模拟器.
 
 ### 博客
