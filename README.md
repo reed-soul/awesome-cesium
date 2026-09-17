@@ -58,7 +58,7 @@ New to Cesium? Start here:
 
 ### Tutorials
 
-- [Official CesiumJS Tutorials](https://cesium.com/learn/cesiumjs/tutorials/) - Step-by-step tutorials and learning resources for beginners.
+- [Official CesiumJS Tutorials](https://cesium.com/learn/cesiumjs-learn/) - Step-by-step tutorials and learning resources for beginners.
 - [Build a CesiumJS App with AI](https://cesium.com/learn/cesiumjs-learn/build-a-cesiumjs-app-with-ai/) - 🆕 **New** Official entry tutorial for scaffolding a Vite + React + TypeScript CesiumJS app with an AI coding agent and CesiumJS Agent Skills.
 - [Build a Philadelphia Landmark Tour with CesiumJS Using AI](https://cesium.com/learn/cesiumjs-learn/build-a-philadelphia-tour-with-cesiumjs-using-ai/) - 🆕 **New** Official AI-agent walkthrough for a 3D landmark flyover of Philadelphia on Google Photorealistic 3D Tiles.
 - [Build a Flight Simulator with CesiumJS Using AI](https://cesium.com/learn/cesiumjs-learn/build-a-flight-simulator-with-cesiumjs-using-ai/) - 🆕 **New** Official guide to building a CesiumJS flight simulator with an AI coding agent, React, and TypeScript.

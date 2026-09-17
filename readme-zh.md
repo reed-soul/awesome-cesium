@@ -58,7 +58,7 @@
 
 ### 教程
 
-- [CesiumJS 官方教程](https://cesium.com/learn/cesiumjs/tutorials/) - 面向初学者的循序渐进教程和学习资源.
+- [CesiumJS 官方教程](https://cesium.com/learn/cesiumjs-learn/) - 面向初学者的循序渐进教程和学习资源.
 - [用 AI 构建 CesiumJS 应用](https://cesium.com/learn/cesiumjs-learn/build-a-cesiumjs-app-with-ai/) - 🆕 **New** 官方入门教程：使用 AI 编程助手与 CesiumJS Agent Skills 搭建 Vite + React + TypeScript 应用.
 - [用 AI 构建费城地标导览](https://cesium.com/learn/cesiumjs-learn/build-a-philadelphia-tour-with-cesiumjs-using-ai/) - 🆕 **New** 官方 AI 编程指南：在 Google 真实感 3D Tiles 上构建费城三维地标飞越导览.
 - [用 AI 构建 CesiumJS 飞行模拟器](https://cesium.com/learn/cesiumjs-learn/build-a-flight-simulator-with-cesiumjs-using-ai/) - 🆕 **New** 官方指南：使用 AI 编程助手、React 与 TypeScript 构建 CesiumJS 飞行模拟器.

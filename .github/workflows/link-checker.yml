@@ -37,6 +37,9 @@ jobs:
           "ignorePatterns": [
             {
               "pattern": "^http://localhost"
+            },
+            {
+              "pattern": "^https://www\\.reddit\\.com"
             }
           ],
           "replacementPatterns": [],
