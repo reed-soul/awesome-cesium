@@ -24,8 +24,6 @@ This list curates libraries, tools, framework integrations, game engines, and re
 - [Ecosystem](#ecosystem)
 - [Future & Emerging](#future--emerging)
 - [Archived / Legacy](#archived--legacy)
-- [Related Lists](#related-lists)
-- [Contributing](#contributing)
 
 ---
 
@@ -203,7 +201,7 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 
 - [3d-tiles-tools](https://github.com/CesiumGS/3d-tiles-tools) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-tools?style=flat&logo=github) Official CLI for converting, merging, upgrading, compressing, and analyzing 3D Tiles tilesets.
 - [3d-tiles-validator](https://github.com/CesiumGS/3d-tiles-validator) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-validator?style=flat&logo=github) Official validator for 3D Tiles tilesets.
-- [spz-loader](https://github.com/drumath2237/spz-loader) - ![GitHub stars](https://img.shields.io/github/stars/drumath2237/spz-loader?style=flat&logo=github) WASM loader for the `.spz` 3D Gaussian Splatting format. CesiumJS uses the `@spz-loader/core` package.
+- [spz-loader](https://github.com/drumath2237/spz-loader) - ![GitHub stars](https://img.shields.io/github/stars/drumath2237/spz-loader?style=flat&logo=github) WebAssembly loader for the `.spz` 3D Gaussian Splatting format. CesiumJS uses the `@spz-loader/core` package.
 - [cesiumjs-workshop](https://github.com/CesiumGS/cesiumjs-workshop) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesiumjs-workshop?style=flat&logo=github) Deep dive workshop materials from the 2025 Cesium Developer Conference.
 - [cesium-vite-example](https://github.com/CesiumGS/cesium-vite-example) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-vite-example?style=flat&logo=github) Official minimal Vite setup for CesiumJS applications.
 - [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - ![GitHub stars](https://img.shields.io/github/stars/nshen/vite-plugin-cesium?style=flat&logo=github) Community Vite plugin for zero-config Cesium static asset handling and bundling. Official AI tutorials still recommend it; see vite-plugin-cesium-build for a more recently maintained alternative.

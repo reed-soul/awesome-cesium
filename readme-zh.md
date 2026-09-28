@@ -183,7 +183,7 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 - [cesium-flight-simulator](https://github.com/WilliamAvHolmberg/cesium-flight-simulator) - ![GitHub stars](https://img.shields.io/github/stars/WilliamAvHolmberg/cesium-flight-simulator?style=flat&logo=github) 🆕 **New** 浏览器端飞行与地面载具模拟器，基于真实 Cesium 地形，使用 React 与 TypeScript.
 - [GeoLibre](https://github.com/opengeos/GeoLibre) - ![GitHub stars](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat&logo=github) 🆕 **New** 云原生 GIS 平台，可选 CesiumJS 三维地球窗格，并与 MapLibre 二维地图相机同步.
 - [velocity](https://github.com/AndrewCTF/velocity) - ![GitHub stars](https://img.shields.io/github/stars/AndrewCTF/velocity?style=flat&logo=github) 🆕 **New** 自托管 OSINT 态势控制台，在同一 Cesium 地球上融合飞机、船舶、卫星、地震与冲突事件.
-- [Lookout](https://github.com/ExtremeAI-Labs/lookout) - ![GitHub stars](https://img.shields.io/github/stars/ExtremeAI-Labs/lookout?style=flat&logo=github) 🆕 **New** 自托管的 3D 态势感知控制台，在 Cesium 地球上融合实时飞机、船舶、卫星、地震与公共摄像头，并支持哈希封存的案件记录。
+- [Lookout](https://github.com/ExtremeAI-Labs/lookout) - ![GitHub stars](https://img.shields.io/github/stars/ExtremeAI-Labs/lookout?style=flat&logo=github) 🆕 **New** 自托管的 3D 态势感知控制台，在 Cesium 地球上融合实时飞机、船舶、卫星、地震与公共摄像头，并支持哈希封存的案件记录.
 - [worldwideview](https://github.com/silvertakana/worldwideview) - ![GitHub stars](https://img.shields.io/github/stars/silvertakana/worldwideview?style=flat&logo=github) 模块化实时态势感知平台，基于插件架构在 CesiumJS 地球上渲染实时地理空间数据.
 - [satellite-js](https://github.com/shashwatak/satellite-js) - ![GitHub stars](https://img.shields.io/github/stars/shashwatak/satellite-js?style=flat&logo=github) 基于 TLE 数据的卫星轨道计算库，常与 Cesium 配合用于轨道可视化.
 - [satvis](https://github.com/Flowm/satvis) - ![GitHub stars](https://img.shields.io/github/stars/Flowm/satvis?style=flat&logo=github) 高级卫星轨道可视化和过境预测.
@@ -203,7 +203,7 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 
 - [3d-tiles-tools](https://github.com/CesiumGS/3d-tiles-tools) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-tools?style=flat&logo=github) 官方 3D Tiles CLI，支持转换、合并、升级、压缩与分析瓦片集.
 - [3d-tiles-validator](https://github.com/CesiumGS/3d-tiles-validator) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/3d-tiles-validator?style=flat&logo=github) 官方 3D Tiles 瓦片集校验工具.
-- [spz-loader](https://github.com/drumath2237/spz-loader) - ![GitHub stars](https://img.shields.io/github/stars/drumath2237/spz-loader?style=flat&logo=github) `.spz` 3D 高斯泼溅格式的 WASM 加载器。CesiumJS 使用 `@spz-loader/core` 包.
+- [spz-loader](https://github.com/drumath2237/spz-loader) - ![GitHub stars](https://img.shields.io/github/stars/drumath2237/spz-loader?style=flat&logo=github) `.spz` 3D 高斯泼溅格式的 WebAssembly 加载器。CesiumJS 使用 `@spz-loader/core` 包.
 - [cesiumjs-workshop](https://github.com/CesiumGS/cesiumjs-workshop) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesiumjs-workshop?style=flat&logo=github) 2025 Cesium 开发者大会深度研讨材料.
 - [cesium-vite-example](https://github.com/CesiumGS/cesium-vite-example) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-vite-example?style=flat&logo=github) 官方 CesiumJS + Vite 最小示例项目.
 - [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - ![GitHub stars](https://img.shields.io/github/stars/nshen/vite-plugin-cesium?style=flat&logo=github) 社区 Vite 插件，零配置处理 Cesium 静态资源与打包。官方 AI 教程仍推荐使用；更近期维护的替代方案见 vite-plugin-cesium-build.
