@@ -238,7 +238,7 @@ Technologies and directions shaping the Cesium ecosystem.
 
 **Game Engines** — Unity (web deployable), Unreal, and Godot bring Cesium and 3D Tiles to real-time engines.
 
-**Omniverse & WebXR** — cesium-omniverse for NVIDIA Omniverse; archived cesium-webxr for VR/AR experiments.
+**Omniverse** — cesium-omniverse for NVIDIA Omniverse.
 
 ## Related Lists
 

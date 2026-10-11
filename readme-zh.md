@@ -238,7 +238,7 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 
 **游戏引擎** — Unity（支持 Web 部署）、Unreal、Godot 将 Cesium 与 3D Tiles 引入实时引擎。
 
-**Omniverse 与 WebXR** — cesium-omniverse 连接 NVIDIA Omniverse；已归档的 cesium-webxr 提供 VR/AR 实验参考。
+**Omniverse** — cesium-omniverse 连接 NVIDIA Omniverse。
 
 ## Related Lists
 
