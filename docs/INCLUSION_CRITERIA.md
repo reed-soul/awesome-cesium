@@ -64,9 +64,8 @@ Resources will **not** be included if they:
 
 | Label | When to Use |
 |-------|-------------|
-| `⚠️ **[Outdated - YEAR]**` | No commits for 24+ months; kept for reference |
+| `⚠️ **[Outdated - YEAR]**` | No commits for 24+ months; moved to [archived.md](../archived.md) |
 | `🧪 **[Experimental]**` | Unstable or cutting-edge |
-| `🆕 **[New]**` | Added within last 3 months |
 | `🌟 **[Popular]**` | Widely adopted (high stars/usage) |
 
 ---

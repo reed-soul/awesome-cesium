@@ -62,9 +62,8 @@ Optional maintainer metadata (categories, translation hints) lives in [docs/awes
 
 ### Special Labels
 Use these labels when appropriate:
-- `⚠️ **[Outdated]**` - For resources that work but are no longer maintained
+- `⚠️ **[Outdated]**` - For resources that work but are no longer maintained (unmaintained resources move to [archived.md](archived.md))
 - `🧪 **[Experimental]**` - For cutting-edge or unstable resources
-- `🆕 **[New]**` - For recently added resources (within 3 months)
 - `🌟 **[Popular]**` - For widely-used community favorites
 
 ## 🗂️ Categories
