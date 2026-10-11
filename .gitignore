@@ -5,3 +5,6 @@ scripts/phase1-report.json
 
 # Dependencies
 node_modules/
+
+# Editor / agent config
+.cursor/
