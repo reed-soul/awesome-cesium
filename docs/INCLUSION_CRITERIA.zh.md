@@ -72,7 +72,7 @@
 
 ## CesiumJS 版本兼容性
 
-- **当前 CesiumJS**：1.x（当前 1.145；参见 [releases](https://github.com/CesiumGS/cesium/releases)）
+- **当前 CesiumJS**：1.x（当前版本见 [CesiumJS releases](https://github.com/CesiumGS/cesium/releases)）
 - 添加资源时，如已知兼容性请注明
 - 标记为已过时的资源可能针对较旧版本 Cesium
 
