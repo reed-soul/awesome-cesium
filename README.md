@@ -70,6 +70,7 @@ New to Cesium? Start here:
 - [Build a Flight Simulator with CesiumJS Using AI](https://cesium.com/learn/cesiumjs-learn/build-a-flight-simulator-with-cesiumjs-using-ai/) - Official guide to building a CesiumJS flight simulator with an AI coding agent, React, and TypeScript.
 - [View 3D Gaussian Splat Tilesets with LODs](https://cesium.com/learn/cesiumjs-learn/3d-guassian-splat-tilesets-lods/) - Official tutorial for streaming Gaussian splat 3D Tiles with hierarchical LOD and screen-space error tuning.
 - [Snap to Design Model Geometry](https://cesium.com/learn/bim-cad/snapping/) - Official guide to hybrid client/server snap-to-geometry against Cesium ion BIM/CAD Database models.
+- [Working with the Asset Elements API](https://cesium.com/learn/bim-cad/bim-cad-asset-elements-api/) - Official tutorial for experimental CesiumJS `IonAssetElementService`: inspect and query BIM/CAD element properties. Requires models tiled with the ion BIM/CAD Tiler with Database.
 
 ### Blogs
 
@@ -188,6 +189,7 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 
 - [cesium-flight-simulator](https://github.com/WilliamAvHolmberg/cesium-flight-simulator) - ![GitHub stars](https://img.shields.io/github/stars/WilliamAvHolmberg/cesium-flight-simulator?style=flat&logo=github) Browser flight and ground vehicle simulator on real-world Cesium terrain with React and TypeScript.
 - [GeoLibre](https://github.com/opengeos/GeoLibre) - ![GitHub stars](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat&logo=github) Cloud-native GIS platform with optional CesiumJS 3D globe panes camera-synced to MapLibre 2D maps.
+- [gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) - ![GitHub stars](https://img.shields.io/github/stars/bilawalsidhu/gods-eye-view?style=flat&logo=github) Browser spy-satellite simulator that fuses live open spatial data on a photorealistic CesiumJS globe. Source is MIT; bundled and third-party datasets have separate licenses, some noncommercial.
 - [velocity](https://github.com/AndrewCTF/velocity) - ![GitHub stars](https://img.shields.io/github/stars/AndrewCTF/velocity?style=flat&logo=github) Self-hosted OSINT situation console fusing aircraft, ships, satellites, quakes, and conflict events on one Cesium globe.
 - [Lookout](https://github.com/ExtremeAI-Labs/lookout) - ![GitHub stars](https://img.shields.io/github/stars/ExtremeAI-Labs/lookout?style=flat&logo=github) Self-hosted 3D situational-awareness console fusing live aircraft, ships, satellites, quakes and public cameras on a Cesium globe, with hash-sealed case recording.
 - [worldwideview](https://github.com/silvertakana/worldwideview) - ![GitHub stars](https://img.shields.io/github/stars/silvertakana/worldwideview?style=flat&logo=github) Modular real-time situational awareness platform with plugin architecture for live geospatial data on a CesiumJS globe.
@@ -215,10 +217,12 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 - [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - ![GitHub stars](https://img.shields.io/github/stars/nshen/vite-plugin-cesium?style=flat&logo=github) Community Vite plugin for zero-config Cesium static asset handling and bundling. Official AI tutorials still recommend it; see vite-plugin-cesium-build for a more recently maintained alternative.
 - [vite-plugin-cesium-build](https://github.com/s3xysteak/vite-plugin-cesium-build) - ![GitHub stars](https://img.shields.io/github/stars/s3xysteak/vite-plugin-cesium-build?style=flat&logo=github) Vite plugin that automates Cesium asset copy and build config, with optional `@cesium/engine` support.
 - [3DTiles-Inspector](https://github.com/WilliamLiu-1997/3DTiles-Inspector) - ![GitHub stars](https://img.shields.io/github/stars/WilliamLiu-1997/3DTiles-Inspector?style=flat&logo=github) Interactive 3D Tiles editor for geospatial transform alignment, geometric error tuning, and Gaussian splat cropping.
+- [blender_ogc3dtiles](https://github.com/Iconem/blender_ogc3dtiles) - ![GitHub stars](https://img.shields.io/github/stars/Iconem/blender_ogc3dtiles?style=flat&logo=github) Blender add-on that streams OGC 3D Tiles through cesium-native, including meshes, point clouds, Gaussian splats, and voxels. Public fork of [jo-chemla/blender_ogc3dtiles](https://github.com/jo-chemla/blender_ogc3dtiles).
 
 ## Ecosystem
 
 - [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-omniverse?style=flat&logo=github) Cesium connector for NVIDIA Omniverse.
+- [X3DOM](https://github.com/x3dom/x3dom) - ![GitHub stars](https://img.shields.io/github/stars/x3dom/x3dom?style=flat&logo=github) Declarative X3D-in-the-browser runtime with 3D Tiles 1.1 streaming, added through a Cesium Ecosystem Grant.
 
 ## Future & Emerging
 
@@ -230,9 +234,9 @@ Technologies and directions shaping the Cesium ecosystem.
 
 **Native vector in 3D Tiles** — Vector Tiles technology preview in Cesium ion, CesiumJS, and Cesium for Unreal. CesiumJS 1.144–1.145 drape clamped polygons and polylines onto terrain and 3D Tiles with `Cesium3DTileStyle`. Earlier 1.142 APIs include `MVTDataProvider` and `GeoJsonPrimitive`.
 
-**3D Tiles 2.0** — Vector payloads, `KHR_mesh_primitive_restart`, and `EXT_mesh_polygon` are steps toward 3D Tiles 2.0. Follow the Cesium Blog for ratification news.
+**3D Tiles 2.0** — Vector payloads, `KHR_mesh_primitive_restart`, and `EXT_mesh_polygon` are steps toward 3D Tiles 2.0. Draft/experimental [`EXT_voxels`](https://github.com/CesiumGS/glTF/tree/3d-tiles-2.0/extensions/2.1/Vendor/EXT_voxels) describes voxel payloads. Follow the Cesium Blog for ratification news.
 
-**BIM/CAD design models** — ion BIM/CAD Tiler with Database, model versioning, and Change Detection API. CesiumJS adds GPU `ClippingPolygons` with holes plus experimental `IonSnapService` and `Scene.snap` for millimeter-level snap-to-source geometry.
+**BIM/CAD design models** — ion BIM/CAD Tiler with Database, model versioning, and Change Detection API. CesiumJS adds GPU `ClippingPolygons` with holes plus experimental `IonSnapService` and `Scene.snap` for millimeter-level snap-to-source geometry, and experimental `IonAssetElementService` for querying BIM/CAD element properties.
 
 **Cesium ion** — Cloud platform for streaming, tiling, photogrammetry, Vector Tiles preview, and BIM/CAD hosting. The default for production deployments.
 
@@ -255,7 +259,7 @@ Contributions are welcome. Please read the [contribution guidelines](CONTRIBUTIN
 
 [Archived and unmaintained resources](archived.md).
 
-Curated for CesiumJS 1.x (currently 1.145). Only actively maintained resources are in the main list. See the [inclusion criteria](docs/INCLUSION_CRITERIA.md). Last updated October 2026. Active resources: 85. Categories: 16.
+Curated for CesiumJS 1.x. See the [CesiumJS releases](https://github.com/CesiumGS/cesium/releases) for the current version. Only actively maintained resources are in the main list. See the [inclusion criteria](docs/INCLUSION_CRITERIA.md). Last updated November 2026. Active resources: 90. Categories: 16.
 
 Cesium and the Cesium logo are trademarks of Cesium GS, Inc. The logo is used unmodified, following the [Cesium brand guidelines](https://cesium.com/logos/).
 

@@ -70,6 +70,7 @@
 - [用 AI 构建 CesiumJS 飞行模拟器](https://cesium.com/learn/cesiumjs-learn/build-a-flight-simulator-with-cesiumjs-using-ai/) - 官方指南：使用 AI 编程助手、React 与 TypeScript 构建 CesiumJS 飞行模拟器.
 - [查看带 LOD 的 3D 高斯泼溅瓦片集](https://cesium.com/learn/cesiumjs-learn/3d-guassian-splat-tilesets-lods/) - 官方教程：流式加载带分层 LOD 的高斯泼溅 3D Tiles，并调节屏幕空间误差.
 - [对齐设计模型几何](https://cesium.com/learn/bim-cad/snapping/) - 官方指南：对 Cesium ion BIM/CAD Database 模型做客户端/服务端混合几何捕捉.
+- [Working with the Asset Elements API](https://cesium.com/learn/bim-cad/bim-cad-asset-elements-api/) - 官方教程：使用实验性 CesiumJS `IonAssetElementService` 查看与查询 BIM/CAD 构件属性。需使用 ion BIM/CAD Tiler with Database 切片的模型.
 
 ### 博客
 
@@ -188,6 +189,7 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 
 - [cesium-flight-simulator](https://github.com/WilliamAvHolmberg/cesium-flight-simulator) - ![GitHub stars](https://img.shields.io/github/stars/WilliamAvHolmberg/cesium-flight-simulator?style=flat&logo=github) 浏览器端飞行与地面载具模拟器，基于真实 Cesium 地形，使用 React 与 TypeScript.
 - [GeoLibre](https://github.com/opengeos/GeoLibre) - ![GitHub stars](https://img.shields.io/github/stars/opengeos/GeoLibre?style=flat&logo=github) 云原生 GIS 平台，可选 CesiumJS 三维地球窗格，并与 MapLibre 二维地图相机同步.
+- [gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) - ![GitHub stars](https://img.shields.io/github/stars/bilawalsidhu/gods-eye-view?style=flat&logo=github) 浏览器端间谍卫星模拟器，在真实感 CesiumJS 地球上融合实时开放空间数据。源码为 MIT；捆绑与第三方数据集另有许可，部分为非商业.
 - [velocity](https://github.com/AndrewCTF/velocity) - ![GitHub stars](https://img.shields.io/github/stars/AndrewCTF/velocity?style=flat&logo=github) 自托管 OSINT 态势控制台，在同一 Cesium 地球上融合飞机、船舶、卫星、地震与冲突事件.
 - [Lookout](https://github.com/ExtremeAI-Labs/lookout) - ![GitHub stars](https://img.shields.io/github/stars/ExtremeAI-Labs/lookout?style=flat&logo=github) 自托管的 3D 态势感知控制台，在 Cesium 地球上融合实时飞机、船舶、卫星、地震与公共摄像头，并支持哈希封存的案件记录.
 - [worldwideview](https://github.com/silvertakana/worldwideview) - ![GitHub stars](https://img.shields.io/github/stars/silvertakana/worldwideview?style=flat&logo=github) 模块化实时态势感知平台，基于插件架构在 CesiumJS 地球上渲染实时地理空间数据.
@@ -215,10 +217,12 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 - [vite-plugin-cesium](https://github.com/nshen/vite-plugin-cesium) - ![GitHub stars](https://img.shields.io/github/stars/nshen/vite-plugin-cesium?style=flat&logo=github) 社区 Vite 插件，零配置处理 Cesium 静态资源与打包。官方 AI 教程仍推荐使用；更近期维护的替代方案见 vite-plugin-cesium-build.
 - [vite-plugin-cesium-build](https://github.com/s3xysteak/vite-plugin-cesium-build) - ![GitHub stars](https://img.shields.io/github/stars/s3xysteak/vite-plugin-cesium-build?style=flat&logo=github) 自动化 Cesium 资源拷贝与构建配置的 Vite 插件，可选支持 `@cesium/engine`.
 - [3DTiles-Inspector](https://github.com/WilliamLiu-1997/3DTiles-Inspector) - ![GitHub stars](https://img.shields.io/github/stars/WilliamLiu-1997/3DTiles-Inspector?style=flat&logo=github) 交互式 3D Tiles 编辑器，支持地理变换对齐、几何误差调节与高斯泼溅裁剪.
+- [blender_ogc3dtiles](https://github.com/Iconem/blender_ogc3dtiles) - ![GitHub stars](https://img.shields.io/github/stars/Iconem/blender_ogc3dtiles?style=flat&logo=github) Blender 插件，通过 cesium-native 流式加载 OGC 3D Tiles（网格、点云、高斯泼溅、体素等）。公开 fork 自 [jo-chemla/blender_ogc3dtiles](https://github.com/jo-chemla/blender_ogc3dtiles).
 
 ## 生态系统
 
 - [cesium-omniverse](https://github.com/CesiumGS/cesium-omniverse) - ![GitHub stars](https://img.shields.io/github/stars/CesiumGS/cesium-omniverse?style=flat&logo=github) NVIDIA Omniverse 平台的 Cesium 连接器.
+- [X3DOM](https://github.com/x3dom/x3dom) - ![GitHub stars](https://img.shields.io/github/stars/x3dom/x3dom?style=flat&logo=github) 声明式浏览器 X3D 运行时，经 Cesium Ecosystem Grant 加入 3D Tiles 1.1 流式加载.
 
 ## 未来与前沿
 
@@ -230,9 +234,9 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 
 **3D Tiles 原生矢量** — Cesium ion、CesiumJS 与 Cesium for Unreal 的矢量瓦片技术预览。CesiumJS 1.144–1.145 可将贴合矢量多边形与折线覆盖到地形和 3D Tiles，并支持 `Cesium3DTileStyle`。更早的 1.142 API 包括 `MVTDataProvider` 与 `GeoJsonPrimitive`。
 
-**3D Tiles 2.0** — 矢量载荷、`KHR_mesh_primitive_restart` 与 `EXT_mesh_polygon` 是迈向 3D Tiles 2.0 的步骤。批准进展请关注 Cesium 官方博客。
+**3D Tiles 2.0** — 矢量载荷、`KHR_mesh_primitive_restart` 与 `EXT_mesh_polygon` 是迈向 3D Tiles 2.0 的步骤。草案/实验性 [`EXT_voxels`](https://github.com/CesiumGS/glTF/tree/3d-tiles-2.0/extensions/2.1/Vendor/EXT_voxels) 描述体素载荷。批准进展请关注 Cesium 官方博客。
 
-**BIM/CAD 设计模型** — ion BIM/CAD Tiler with Database、模型版本管理与 Change Detection API。CesiumJS 提供带孔洞的 GPU `ClippingPolygons`，以及实验性 `IonSnapService` 与 `Scene.snap`，可对源几何做毫米级捕捉。
+**BIM/CAD 设计模型** — ion BIM/CAD Tiler with Database、模型版本管理与 Change Detection API。CesiumJS 提供带孔洞的 GPU `ClippingPolygons`，实验性 `IonSnapService` 与 `Scene.snap` 可对源几何做毫米级捕捉，以及实验性 `IonAssetElementService` 用于查询 BIM/CAD 构件属性。
 
 **Cesium ion** — 3D 地理空间云平台；流式传输、瓦片化、摄影测量、矢量瓦片预览与 BIM/CAD 托管，生产部署首选。
 
@@ -255,7 +259,7 @@ Cesium 生态正在快速与 AI 系统集成。本节涵盖 MCP 服务器、Agen
 
 [已归档与不再维护的资源](archived-zh.md)。
 
-主列表仅含活跃维护资源，基于 CesiumJS 1.x（当前 1.145）。详见[收录标准](docs/INCLUSION_CRITERIA.zh.md)。最后更新：2026 年 10 月。活跃资源：85。分类数：16。
+主列表仅含活跃维护资源，基于 CesiumJS 1.x。当前版本见 [CesiumJS releases](https://github.com/CesiumGS/cesium/releases)。详见[收录标准](docs/INCLUSION_CRITERIA.zh.md)。最后更新：2026 年 11 月。活跃资源：90。分类数：16。
 
 Cesium 及 Cesium 标志是 Cesium GS, Inc. 的商标。本页按照 [Cesium 品牌指南](https://cesium.com/logos/)原样使用该标志。
 

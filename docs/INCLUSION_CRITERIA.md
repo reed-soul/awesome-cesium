@@ -72,7 +72,7 @@ Resources will **not** be included if they:
 
 ## CesiumJS Version Compatibility
 
-- **Current CesiumJS**: 1.x (currently 1.145; check [releases](https://github.com/CesiumGS/cesium/releases))
+- **Current CesiumJS**: 1.x (see [CesiumJS releases](https://github.com/CesiumGS/cesium/releases) for the current version)
 - When adding resources, note CesiumJS compatibility if known
 - Resources marked Outdated may target older Cesium versions
 
