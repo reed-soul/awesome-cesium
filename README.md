@@ -180,6 +180,7 @@ The Cesium ecosystem is rapidly integrating with AI systems. This section covers
 
 - [dc-sdk](https://github.com/dvt3d/dc-sdk) - ![GitHub stars](https://img.shields.io/github/stars/dvt3d/dc-sdk?style=flat&logo=github) WebGIS application framework optimized for rapid development and deployment.
 - [mars3d](https://github.com/marsgis/mars3d) - ![GitHub stars](https://img.shields.io/github/stars/marsgis/mars3d?style=flat&logo=github) Mars3D platform for B/S architecture 3D client development with industry extensions.
+- [cesium_dev_kit](https://github.com/dengxiaoning/cesium_dev_kit) ![GitHub stars](https://img.shields.io/github/stars/dengxiaoning/cesium_dev_kit?style=flat&logo=github) - CesiumJS toolkit for plotting, measurement, analysis, terrain editing and effects; tree-shakable ESM.
 
 ## Open Source Projects
 
